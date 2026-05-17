@@ -15,26 +15,19 @@ class PredictionResult:
     top_clues: list[dict]
 
 
-# Countries that drive on the left
 LHT_COUNTRIES = {
     "Japan", "Australia", "UK", "India", "New Zealand",
     "Thailand", "Indonesia", "Malaysia", "South Africa",
     "Kenya", "Ireland", "Bangladesh", "Pakistan",
 }
 
-# Countries that use cyrillic script
 CYRILLIC_COUNTRIES = {
     "Russia", "Ukraine", "Bulgaria", "Belarus",
     "Mongolia", "Serbia", "Kazakhstan",
 }
 
-# Countries that use japanese script
 JAPANESE_COUNTRIES = {"Japan"}
-
-# Countries that use korean script
 KOREAN_COUNTRIES = {"South Korea", "North Korea"}
-
-# Countries that use arabic script
 ARABIC_COUNTRIES = {
     "Saudi Arabia", "Egypt", "Jordan", "UAE",
     "Iraq", "Syria", "Tunisia", "Morocco",
@@ -53,9 +46,11 @@ class ClueScorer:
         region_scores: dict[str, float] = defaultdict(float)
 
         # Accumulate weighted clue votes
+        # Single country clues get a specificity boost
         for rc in retrieved_clues:
+            specificity_boost = 1.5 if len(rc.clue.countries) == 1 else 1.0
             for country in rc.clue.countries:
-                country_scores[country] += rc.effective_weight
+                country_scores[country] += rc.effective_weight * specificity_boost
             for region in (rc.clue.regions or []):
                 region_scores[region] += rc.effective_weight
 

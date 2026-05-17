@@ -5,8 +5,26 @@
     "description": "Square concrete poles with circular holes on sides for cable routing. Ubiquitous in Japan.",
     "countries": ["Japan"],
     "regions": ["Hokkaido", "Honshu", "Kyushu"],
-    "weight": 0.84,
+    "weight": 0.92,
     "tags": ["infrastructure", "poles"]
+  },
+  {
+    "id": "jp-vending-001",
+    "feature": "vending machine on street corner",
+    "description": "Japan has the highest density of vending machines in the world.",
+    "countries": ["Japan"],
+    "regions": [],
+    "weight": 0.85,
+    "tags": ["urban", "infrastructure"]
+  },
+  {
+    "id": "jp-tori-001",
+    "feature": "shinto torii gate red orange",
+    "description": "Traditional Japanese shrine gate. Definitive Japan indicator.",
+    "countries": ["Japan"],
+    "regions": [],
+    "weight": 0.99,
+    "tags": ["landmarks", "culture"]
   },
   {
     "id": "jp-road-001",
@@ -18,22 +36,49 @@
     "tags": ["road", "markings"]
   },
   {
-    "id": "pl-bollard-001",
-    "feature": "white bollard with black cap stripe",
-    "description": "White flexible bollards with a distinctive black top band. Strong Poland indicator.",
-    "countries": ["Poland", "Lithuania", "Latvia"],
+    "id": "jp-signs-001",
+    "feature": "japanese kanji hiragana road signs",
+    "description": "Japanese script on road signs is a definitive Japan indicator.",
+    "countries": ["Japan"],
     "regions": [],
-    "weight": 0.76,
-    "tags": ["bollards", "road-furniture"]
+    "weight": 0.99,
+    "tags": ["signs", "script"]
   },
   {
-    "id": "au-sign-001",
-    "feature": "kangaroo warning road sign",
-    "description": "Yellow diamond warning sign with kangaroo silhouette. Definitive Australia indicator.",
-    "countries": ["Australia"],
-    "regions": ["Western Australia", "South Australia", "Northern Territory"],
-    "weight": 0.97,
-    "tags": ["signs", "wildlife"]
+    "id": "jp-urban-001",
+    "feature": "dense urban city blocks narrow streets tokyo",
+    "description": "Tokyo and Japanese cities have distinctive dense urban blocks.",
+    "countries": ["Japan"],
+    "regions": ["Honshu"],
+    "weight": 0.75,
+    "tags": ["urban", "architecture"]
+  },
+  {
+    "id": "jp-taxi-001",
+    "feature": "black and yellow taxi cab japan",
+    "description": "Japanese taxis are distinctive black or yellow vehicles.",
+    "countries": ["Japan"],
+    "regions": [],
+    "weight": 0.80,
+    "tags": ["vehicles"]
+  },
+  {
+    "id": "jp-temple-001",
+    "feature": "buddhist temple pagoda architecture",
+    "description": "Buddhist temples with pagoda roofs are common in Japan.",
+    "countries": ["Japan"],
+    "regions": [],
+    "weight": 0.88,
+    "tags": ["landmarks", "culture"]
+  },
+  {
+    "id": "ru-cyrillic-001",
+    "feature": "cyrillic script on road signs",
+    "description": "Cyrillic writing on signs strongly indicates Russia, Ukraine, Bulgaria or Belarus.",
+    "countries": ["Russia", "Ukraine", "Bulgaria", "Belarus", "Mongolia"],
+    "regions": [],
+    "weight": 0.88,
+    "tags": ["signs", "script"]
   },
   {
     "id": "ru-pole-001",
@@ -45,48 +90,273 @@
     "tags": ["infrastructure", "poles"]
   },
   {
+    "id": "ru-landscape-001",
+    "feature": "birch tree forest flat landscape",
+    "description": "Birch forests and flat terrain are iconic in Russia.",
+    "countries": ["Russia", "Belarus", "Finland"],
+    "regions": [],
+    "weight": 0.65,
+    "tags": ["vegetation", "terrain"]
+  },
+  {
+    "id": "ru-architecture-001",
+    "feature": "soviet era concrete apartment blocks",
+    "description": "Soviet brutalist housing blocks found across Russia and former USSR.",
+    "countries": ["Russia", "Ukraine", "Belarus", "Kazakhstan", "Georgia"],
+    "regions": [],
+    "weight": 0.78,
+    "tags": ["architecture", "urban"]
+  },
+  {
+    "id": "au-sign-001",
+    "feature": "kangaroo warning road sign",
+    "description": "Yellow diamond warning sign with kangaroo silhouette.",
+    "countries": ["Australia"],
+    "regions": ["Western Australia", "South Australia", "Northern Territory"],
+    "weight": 0.99,
+    "tags": ["signs", "wildlife"]
+  },
+  {
+    "id": "au-road-001",
+    "feature": "red dirt road unpaved outback",
+    "description": "Distinctive red laterite soil roads in Australian outback.",
+    "countries": ["Australia"],
+    "regions": ["Western Australia", "Northern Territory", "Queensland"],
+    "weight": 0.90,
+    "tags": ["road", "terrain"]
+  },
+  {
+    "id": "au-vegetation-001",
+    "feature": "eucalyptus gum tree dry scrubland",
+    "description": "Eucalyptus trees are native to Australia and highly distinctive.",
+    "countries": ["Australia"],
+    "regions": [],
+    "weight": 0.88,
+    "tags": ["vegetation"]
+  },
+  {
+    "id": "au-urban-001",
+    "feature": "australian suburban house red brick tile roof",
+    "description": "Distinctive Australian suburban architecture with red brick and tile roofs.",
+    "countries": ["Australia"],
+    "regions": [],
+    "weight": 0.72,
+    "tags": ["architecture", "urban"]
+  },
+  {
+    "id": "pl-bollard-001",
+    "feature": "white bollard with black cap stripe",
+    "description": "White flexible bollards with a distinctive black top band.",
+    "countries": ["Poland", "Lithuania", "Latvia"],
+    "regions": [],
+    "weight": 0.82,
+    "tags": ["bollards", "road-furniture"]
+  },
+  {
+    "id": "pl-road-001",
+    "feature": "red and white striped road barrier poland",
+    "description": "Distinctive red and white road barriers used in Poland.",
+    "countries": ["Poland"],
+    "regions": [],
+    "weight": 0.75,
+    "tags": ["road", "barriers"]
+  },
+  {
     "id": "br-road-001",
-    "feature": "red and white striped road barrier",
-    "description": "Distinctive red and white striped barriers used on Brazilian roads.",
+    "feature": "red and white striped road barrier brazil",
+    "description": "Distinctive red and white striped barriers on Brazilian roads.",
     "countries": ["Brazil"],
     "regions": [],
     "weight": 0.70,
     "tags": ["road", "barriers"]
   },
   {
-    "id": "jp-vending-001",
-    "feature": "vending machine on street corner",
-    "description": "Japan has the highest density of vending machines in the world.",
-    "countries": ["Japan"],
+    "id": "br-vegetation-001",
+    "feature": "tropical rainforest dense green jungle",
+    "description": "Dense tropical vegetation common in Brazil and South America.",
+    "countries": ["Brazil", "Colombia", "Peru", "Ecuador"],
     "regions": [],
-    "weight": 0.78,
-    "tags": ["urban", "infrastructure"]
+    "weight": 0.65,
+    "tags": ["vegetation"]
   },
   {
-    "id": "ru-cyrillic-001",
-    "feature": "cyrillic script on road signs",
-    "description": "Cyrillic writing on signs strongly indicates Russia, Ukraine, Bulgaria or Belarus.",
-    "countries": ["Russia", "Ukraine", "Bulgaria", "Belarus", "Mongolia"],
+    "id": "br-architecture-001",
+    "feature": "colorful painted buildings favela hillside",
+    "description": "Colorful hillside buildings characteristic of Brazilian cities.",
+    "countries": ["Brazil"],
     "regions": [],
+    "weight": 0.82,
+    "tags": ["architecture", "urban"]
+  },
+  {
+    "id": "us-road-001",
+    "feature": "american highway interstate road sign green",
+    "description": "Green rectangular highway signs are distinctive to USA.",
+    "countries": ["USA"],
+    "regions": [],
+    "weight": 0.88,
+    "tags": ["signs", "road"]
+  },
+  {
+    "id": "us-mailbox-001",
+    "feature": "rural mailbox on post roadside",
+    "description": "Standalone mailboxes on posts at the roadside are very common in USA.",
+    "countries": ["USA", "Canada"],
+    "regions": [],
+    "weight": 0.72,
+    "tags": ["infrastructure"]
+  },
+  {
+    "id": "us-architecture-001",
+    "feature": "american wooden house front porch",
+    "description": "Wooden single family homes with front porches are iconic in USA.",
+    "countries": ["USA", "Canada"],
+    "regions": [],
+    "weight": 0.70,
+    "tags": ["architecture"]
+  },
+  {
+    "id": "za-road-001",
+    "feature": "yellow road line markings south africa",
+    "description": "South Africa uses yellow road line markings.",
+    "countries": ["South Africa"],
+    "regions": [],
+    "weight": 0.65,
+    "tags": ["road", "markings"]
+  },
+  {
+    "id": "za-vegetation-001",
+    "feature": "savanna dry grassland acacia tree",
+    "description": "Savanna with acacia trees is characteristic of South Africa.",
+    "countries": ["South Africa", "Kenya", "Tanzania", "Botswana"],
+    "regions": [],
+    "weight": 0.68,
+    "tags": ["vegetation", "terrain"]
+  },
+  {
+    "id": "in-road-001",
+    "feature": "colorful trucks decorated painted india",
+    "description": "Highly decorated and painted trucks are very common in India.",
+    "countries": ["India", "Pakistan"],
+    "regions": [],
+    "weight": 0.82,
+    "tags": ["vehicles"]
+  },
+  {
+    "id": "in-architecture-001",
+    "feature": "hindu temple colorful gopuram tower",
+    "description": "Colorful Hindu temple towers are distinctive to India.",
+    "countries": ["India"],
+    "regions": [],
+    "weight": 0.95,
+    "tags": ["landmarks", "culture"]
+  },
+  {
+    "id": "fr-road-001",
+    "feature": "french road sign blue white",
+    "description": "French road signs have distinctive blue and white coloring.",
+    "countries": ["France", "Belgium", "Switzerland"],
+    "regions": [],
+    "weight": 0.72,
+    "tags": ["signs", "road"]
+  },
+  {
+    "id": "fr-architecture-001",
+    "feature": "french haussmann stone building balcony paris",
+    "description": "Classic Haussmann-style buildings with stone facades and iron balconies.",
+    "countries": ["France"],
+    "regions": ["Ile-de-France"],
     "weight": 0.85,
+    "tags": ["architecture", "urban"]
+  },
+  {
+    "id": "mx-architecture-001",
+    "feature": "colorful painted concrete building latin america",
+    "description": "Brightly painted buildings are common across Mexico and Latin America.",
+    "countries": ["Mexico", "Colombia", "Peru", "Guatemala"],
+    "regions": [],
+    "weight": 0.65,
+    "tags": ["architecture"]
+  },
+  {
+    "id": "mx-road-001",
+    "feature": "tope speed bump sign mexico",
+    "description": "Tope signs warning of speed bumps are common in Mexico.",
+    "countries": ["Mexico"],
+    "regions": [],
+    "weight": 0.88,
+    "tags": ["signs", "road"]
+  },
+  {
+    "id": "se-road-001",
+    "feature": "swedish road sign black text yellow background",
+    "description": "Swedish road signs have distinctive black on yellow coloring.",
+    "countries": ["Sweden", "Norway", "Denmark"],
+    "regions": [],
+    "weight": 0.75,
+    "tags": ["signs", "road"]
+  },
+  {
+    "id": "no-landscape-001",
+    "feature": "fjord mountains norway dramatic landscape",
+    "description": "Dramatic fjord landscapes are iconic to Norway.",
+    "countries": ["Norway"],
+    "regions": [],
+    "weight": 0.90,
+    "tags": ["terrain", "landscape"]
+  },
+  {
+    "id": "nz-landscape-001",
+    "feature": "green rolling hills sheep pasture",
+    "description": "Lush green rolling hills with sheep are iconic in New Zealand.",
+    "countries": ["New Zealand"],
+    "regions": [],
+    "weight": 0.80,
+    "tags": ["terrain", "vegetation"]
+  },
+  {
+    "id": "th-architecture-001",
+    "feature": "buddhist temple golden spire thailand",
+    "description": "Golden Buddhist temples and spires are characteristic of Thailand.",
+    "countries": ["Thailand"],
+    "regions": [],
+    "weight": 0.92,
+    "tags": ["landmarks", "culture"]
+  },
+  {
+    "id": "kr-hangul-001",
+    "feature": "korean hangul script signage",
+    "description": "Hangul script on signs is a definitive South Korea indicator.",
+    "countries": ["South Korea"],
+    "regions": [],
+    "weight": 0.99,
     "tags": ["signs", "script"]
   },
   {
-    "id": "au-road-001",
-    "feature": "red dirt road unpaved outback",
-    "description": "Distinctive red laterite soil roads found in Australian outback regions.",
-    "countries": ["Australia"],
-    "regions": ["Western Australia", "Northern Territory", "Queensland"],
-    "weight": 0.82,
-    "tags": ["road", "terrain"]
+    "id": "cn-simplified-001",
+    "feature": "chinese simplified characters signage",
+    "description": "Simplified Chinese characters on signs indicate mainland China.",
+    "countries": ["China"],
+    "regions": [],
+    "weight": 0.95,
+    "tags": ["signs", "script"]
   },
   {
-    "id": "jp-tori-001",
-    "feature": "shinto torii gate red orange",
-    "description": "Traditional Japanese shrine gate. Definitive Japan indicator.",
-    "countries": ["Japan"],
+    "id": "id-road-001",
+    "feature": "indonesian road dense tropical vegetation motorbikes",
+    "description": "Dense tropical vegetation and many motorbikes are common in Indonesia.",
+    "countries": ["Indonesia"],
     "regions": [],
-    "weight": 0.99,
-    "tags": ["landmarks", "culture"]
+    "weight": 0.72,
+    "tags": ["road", "vehicles", "vegetation"]
+  },
+  {
+    "id": "ar-landscape-001",
+    "feature": "pampas flat dry grassland argentina",
+    "description": "Flat dry pampas grasslands are iconic in Argentina.",
+    "countries": ["Argentina"],
+    "regions": [],
+    "weight": 0.78,
+    "tags": ["terrain", "vegetation"]
   }
 ]
