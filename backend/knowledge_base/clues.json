@@ -1,0 +1,92 @@
+[
+  {
+    "id": "jp-pole-001",
+    "feature": "concrete utility pole with side cable attachment holes",
+    "description": "Square concrete poles with circular holes on sides for cable routing. Ubiquitous in Japan.",
+    "countries": ["Japan"],
+    "regions": ["Hokkaido", "Honshu", "Kyushu"],
+    "weight": 0.84,
+    "tags": ["infrastructure", "poles"]
+  },
+  {
+    "id": "jp-road-001",
+    "feature": "yellow center road line marking",
+    "description": "Japan uses yellow center lines on many roads.",
+    "countries": ["Japan", "USA", "Canada"],
+    "regions": [],
+    "weight": 0.45,
+    "tags": ["road", "markings"]
+  },
+  {
+    "id": "pl-bollard-001",
+    "feature": "white bollard with black cap stripe",
+    "description": "White flexible bollards with a distinctive black top band. Strong Poland indicator.",
+    "countries": ["Poland", "Lithuania", "Latvia"],
+    "regions": [],
+    "weight": 0.76,
+    "tags": ["bollards", "road-furniture"]
+  },
+  {
+    "id": "au-sign-001",
+    "feature": "kangaroo warning road sign",
+    "description": "Yellow diamond warning sign with kangaroo silhouette. Definitive Australia indicator.",
+    "countries": ["Australia"],
+    "regions": ["Western Australia", "South Australia", "Northern Territory"],
+    "weight": 0.97,
+    "tags": ["signs", "wildlife"]
+  },
+  {
+    "id": "ru-pole-001",
+    "feature": "wooden utility pole with crossbar",
+    "description": "Old wooden utility poles with horizontal crossbars common in rural Russia.",
+    "countries": ["Russia", "Ukraine", "Belarus"],
+    "regions": [],
+    "weight": 0.61,
+    "tags": ["infrastructure", "poles"]
+  },
+  {
+    "id": "br-road-001",
+    "feature": "red and white striped road barrier",
+    "description": "Distinctive red and white striped barriers used on Brazilian roads.",
+    "countries": ["Brazil"],
+    "regions": [],
+    "weight": 0.70,
+    "tags": ["road", "barriers"]
+  },
+  {
+    "id": "jp-vending-001",
+    "feature": "vending machine on street corner",
+    "description": "Japan has the highest density of vending machines in the world.",
+    "countries": ["Japan"],
+    "regions": [],
+    "weight": 0.78,
+    "tags": ["urban", "infrastructure"]
+  },
+  {
+    "id": "ru-cyrillic-001",
+    "feature": "cyrillic script on road signs",
+    "description": "Cyrillic writing on signs strongly indicates Russia, Ukraine, Bulgaria or Belarus.",
+    "countries": ["Russia", "Ukraine", "Bulgaria", "Belarus", "Mongolia"],
+    "regions": [],
+    "weight": 0.85,
+    "tags": ["signs", "script"]
+  },
+  {
+    "id": "au-road-001",
+    "feature": "red dirt road unpaved outback",
+    "description": "Distinctive red laterite soil roads found in Australian outback regions.",
+    "countries": ["Australia"],
+    "regions": ["Western Australia", "Northern Territory", "Queensland"],
+    "weight": 0.82,
+    "tags": ["road", "terrain"]
+  },
+  {
+    "id": "jp-tori-001",
+    "feature": "shinto torii gate red orange",
+    "description": "Traditional Japanese shrine gate. Definitive Japan indicator.",
+    "countries": ["Japan"],
+    "regions": [],
+    "weight": 0.99,
+    "tags": ["landmarks", "culture"]
+  }
+]
