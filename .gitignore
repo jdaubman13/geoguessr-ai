@@ -1,0 +1,94 @@
+# ── Secrets & environment ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# ── uv ────────────────────────────────────────────────────────────────────────
+.python-version
+uv.lock
+# ── Model weights (huge files — never commit these) ───────────────────────────
+backend/models/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+
+# ── Generated data / indexes ──────────────────────────────────────────────────
+data/
+backend/data/
+*.index
+*.faiss
+
+# ── HuggingFace & torch cache ─────────────────────────────────────────────────
+.cache/
+~/.cache/huggingface/
+backend/.cache/
+
+# ── Uploads (user images should never be committed) ───────────────────────────
+backend/uploads/
+backend/tmp/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+
+# ── Node / frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+.npm/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.sqlite
+*.db
+*.sql.gz
+pgdata/
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ── VS Code ───────────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
