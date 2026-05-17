@@ -3,41 +3,43 @@ from PIL import Image
 import easyocr
 
 
-SCRIPT_MAP = {
-    "ja": "japanese",
-    "ko": "korean",
-    "zh": "chinese",
-    "ru": "cyrillic",
-    "uk": "cyrillic",
-    "bg": "cyrillic",
-    "ar": "arabic",
-    "hi": "devanagari",
-    "th": "thai",
-    "en": "latin",
-    "fr": "latin",
-    "de": "latin",
-    "es": "latin",
-    "pt": "latin",
-    "pl": "latin",
-}
-
-
 class OCREngine:
     def __init__(self):
         print("Loading EasyOCR...")
-        self.reader = easyocr.Reader(
-            ["en", "ja", "ru", "ko", "ar", "hi", "th", "fr", "de", "es"],
+        self.reader_latin = easyocr.Reader(
+            ["en", "fr", "de", "es", "pt", "pl"],
             gpu=False,
         )
+        self.reader_cyrillic = easyocr.Reader(
+            ["ru", "bg", "uk", "en"],
+            gpu=False,
+        )
+        self.reader_ja = easyocr.Reader(["ja", "en"], gpu=False)
+        self.reader_ko = easyocr.Reader(["ko", "en"], gpu=False)
+        self.reader_th = easyocr.Reader(["th", "en"], gpu=False)
         print("EasyOCR ready.")
 
     def extract(self, image: Image.Image) -> tuple[list[str], str]:
         img_array = np.array(image)
-        results = self.reader.readtext(img_array)
 
+        # Always run latin first as the default
+        results = self.reader_latin.readtext(img_array)
         texts = [text for _, text, conf in results if conf > 0.3]
-
         script = self._detect_script(texts)
+
+        # Re-run with the appropriate reader if non-latin detected
+        if script == "cyrillic":
+            results = self.reader_cyrillic.readtext(img_array)
+            texts = [text for _, text, conf in results if conf > 0.3]
+        elif script == "japanese":
+            results = self.reader_ja.readtext(img_array)
+            texts = [text for _, text, conf in results if conf > 0.3]
+        elif script == "korean":
+            results = self.reader_ko.readtext(img_array)
+            texts = [text for _, text, conf in results if conf > 0.3]
+        elif script == "thai":
+            results = self.reader_th.readtext(img_array)
+            texts = [text for _, text, conf in results if conf > 0.3]
 
         return texts, script
 
