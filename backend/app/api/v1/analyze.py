@@ -1,0 +1,8 @@
+from fastapi import APIRouter
+
+router = APIRouter()
+
+
+@router.post("/analyze")
+async def analyze():
+    return {"status": "stub — coming soon"}
