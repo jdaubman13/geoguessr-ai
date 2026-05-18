@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #0f0f0f;
+  color: #f0f0f0;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.header p {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.upload-zone {
+  border: 2px dashed #333;
+  border-radius: 12px;
+  padding: 3rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  background: #1a1a1a;
+  margin-bottom: 1.5rem;
+}
+
+.upload-zone:hover {
+  border-color: #555;
+  background: #1f1f1f;
+}
+
+.upload-zone.dragging {
+  border-color: #4a9eff;
+  background: #0d1f33;
+}
+
+.upload-zone input {
+  display: none;
+}
+
+.upload-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.upload-zone h3 {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 0.25rem;
+}
+
+.upload-zone p {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.preview-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.preview-container img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.change-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.analyze-btn {
+  width: 100%;
+  padding: 1rem;
+  background: #4a9eff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-bottom: 2rem;
+}
+
+.analyze-btn:hover {
+  background: #3a8eef;
+}
+
+.analyze-btn:disabled {
+  background: #333;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #888;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #333;
+  border-top-color: #4a9eff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.card h2 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.prediction-country {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.prediction-region {
+  font-size: 0.95rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.confidence-label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+
+.confidence-bar-bg {
+  background: #2a2a2a;
+  border-radius: 4px;
+  height: 8px;
+  margin-bottom: 0.25rem;
+}
+
+.confidence-bar-fill {
+  height: 8px;
+  border-radius: 4px;
+  background: #4a9eff;
+  transition: width 0.6s ease;
+}
+
+.confidence-pct {
+  font-size: 0.8rem;
+  color: #4a9eff;
+  font-weight: 600;
+}
+
+.prob-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0.6rem;
+}
+
+.prob-country {
+  font-size: 0.85rem;
+  color: #ccc;
+  width: 120px;
+  flex-shrink: 0;
+}
+
+.prob-bar-bg {
+  flex: 1;
+  background: #2a2a2a;
+  border-radius: 3px;
+  height: 6px;
+}
+
+.prob-bar-fill {
+  height: 6px;
+  border-radius: 3px;
+  background: #4a9eff;
+  transition: width 0.6s ease;
+}
+
+.prob-pct {
+  font-size: 0.8rem;
+  color: #666;
+  width: 40px;
+  text-align: right;
+}
+
+.clue-row {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #222;
+}
+
+.clue-row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.clue-feature {
+  font-size: 0.85rem;
+  color: #ccc;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.clue-countries {
+  font-size: 0.75rem;
+  color: #4a9eff;
+}
+
+.clue-weight-bar {
+  height: 3px;
+  background: #4a9eff;
+  border-radius: 2px;
+  margin-top: 0.4rem;
+  opacity: 0.6;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.feature-item {
+  background: #222;
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+}
+
+.feature-label {
+  font-size: 0.7rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.feature-value {
+  font-size: 0.82rem;
+  color: #ccc;
+  line-height: 1.3;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.error {
+  background: #2a1515;
+  border: 1px solid #5a2a2a;
+  border-radius: 10px;
+  padding: 1rem;
+  color: #ff6b6b;
+  text-align: center;
+  margin-bottom: 1rem;
+}
