@@ -8,17 +8,18 @@ from app.vision.driving_side import DrivingSideDetector
 from app.vision.ocr_engine import OCREngine
 
 POLE_PROMPTS = [
-    "concrete utility pole with side cable holes",
-    "wooden utility pole",
-    "metal utility pole",
-    "no utility poles visible",
+    "concrete square utility pole with holes japan",
+    "wooden utility pole with crossbar rural",
+    "metal steel utility pole urban",
+    "concrete round utility pole",
+    "no utility poles visible in scene",
 ]
 
 ROAD_PROMPTS = [
-    "yellow center road line marking",
-    "white center road line marking",
-    "no center road line marking",
+    "yellow painted center road line",
+    "white painted center road line",
     "double yellow center road line",
+    "no center road line visible",
 ]
 
 BOLLARD_PROMPTS = [
@@ -28,17 +29,43 @@ BOLLARD_PROMPTS = [
     "no bollards visible",
 ]
 
+ARCHITECTURE_PROMPTS = [
+    "japanese style building architecture",
+    "european style building architecture",
+    "american style building architecture",
+    "soviet brutalist concrete apartment block",
+    "tropical developing world building",
+    "middle eastern arabic architecture",
+    "southeast asian building architecture",
+    "african building architecture",
+    "latin american colorful building",
+    "no buildings visible",
+]
+
+ROAD_TYPE_PROMPTS = [
+    "paved asphalt urban road",
+    "paved asphalt rural road",
+    "unpaved dirt gravel road",
+    "red dirt laterite road africa australia",
+    "cobblestone road european",
+    "highway motorway road",
+]
+
 
 @dataclass
 class FeatureDict:
     # Road
     road_line_color: Optional[str] = None
     road_line_conf: float = 0.0
+    road_type: Optional[str] = None
 
     # Infrastructure
     pole_type: Optional[str] = None
     pole_type_conf: float = 0.0
     bollard_style: Optional[str] = None
+
+    # Architecture
+    architecture_style: Optional[str] = None
 
     # Environment
     vegetation: Optional[str] = None
@@ -82,6 +109,16 @@ class FeatureExtractor:
         bollard_scores = self.encoder.zero_shot_classify(image, BOLLARD_PROMPTS)
         best_bollard = max(bollard_scores, key=bollard_scores.get)
         fd.bollard_style = best_bollard
+
+        # Architecture style
+        arch_scores = self.encoder.zero_shot_classify(image, ARCHITECTURE_PROMPTS)
+        best_arch = max(arch_scores, key=arch_scores.get)
+        fd.architecture_style = best_arch
+
+        # Road type
+        road_type_scores = self.encoder.zero_shot_classify(image, ROAD_TYPE_PROMPTS)
+        best_road_type = max(road_type_scores, key=road_type_scores.get)
+        fd.road_type = best_road_type
 
         # Scene
         fd.vegetation = self.scene.classify_vegetation(image)

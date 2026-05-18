@@ -3,360 +3,3012 @@
     "id": "jp-pole-001",
     "feature": "concrete utility pole with side cable attachment holes",
     "description": "Square concrete poles with circular holes on sides for cable routing. Ubiquitous in Japan.",
-    "countries": ["Japan"],
-    "regions": ["Hokkaido", "Honshu", "Kyushu"],
+    "countries": [
+      "Japan"
+    ],
+    "regions": [
+      "north"
+    ],
     "weight": 0.92,
-    "tags": ["infrastructure", "poles"]
+    "tags": [
+      "infrastructure",
+      "poles"
+    ]
   },
   {
     "id": "jp-vending-001",
     "feature": "vending machine on street corner",
     "description": "Japan has the highest density of vending machines in the world.",
-    "countries": ["Japan"],
+    "countries": [
+      "Japan"
+    ],
     "regions": [],
     "weight": 0.85,
-    "tags": ["urban", "infrastructure"]
+    "tags": [
+      "urban",
+      "infrastructure"
+    ]
   },
   {
     "id": "jp-tori-001",
     "feature": "shinto torii gate red orange",
-    "description": "Traditional Japanese shrine gate. Definitive Japan indicator.",
-    "countries": ["Japan"],
-    "regions": [],
+    "description": "Traditional Japanese shrine gate.",
+    "countries": [
+      "Japan"
+    ],
+    "regions": [
+      "central"
+    ],
     "weight": 0.99,
-    "tags": ["landmarks", "culture"]
-  },
-  {
-    "id": "jp-road-001",
-    "feature": "yellow center road line marking",
-    "description": "Japan uses yellow center lines on many roads.",
-    "countries": ["Japan", "USA", "Canada"],
-    "regions": [],
-    "weight": 0.45,
-    "tags": ["road", "markings"]
+    "tags": [
+      "landmarks",
+      "culture"
+    ]
   },
   {
     "id": "jp-signs-001",
     "feature": "japanese kanji hiragana road signs",
-    "description": "Japanese script on road signs is a definitive Japan indicator.",
-    "countries": ["Japan"],
+    "description": "Japanese script on road signs.",
+    "countries": [
+      "Japan"
+    ],
     "regions": [],
     "weight": 0.99,
-    "tags": ["signs", "script"]
+    "tags": [
+      "signs",
+      "script"
+    ]
   },
   {
     "id": "jp-urban-001",
     "feature": "dense urban city blocks narrow streets tokyo",
     "description": "Tokyo and Japanese cities have distinctive dense urban blocks.",
-    "countries": ["Japan"],
-    "regions": ["Honshu"],
+    "countries": [
+      "Japan"
+    ],
+    "regions": [
+      "central"
+    ],
     "weight": 0.75,
-    "tags": ["urban", "architecture"]
+    "tags": [
+      "urban",
+      "architecture"
+    ]
   },
   {
-    "id": "jp-taxi-001",
-    "feature": "black and yellow taxi cab japan",
-    "description": "Japanese taxis are distinctive black or yellow vehicles.",
-    "countries": ["Japan"],
-    "regions": [],
-    "weight": 0.80,
-    "tags": ["vehicles"]
+    "id": "jp-snow-001",
+    "feature": "heavy snow covered roads mountains hokkaido",
+    "description": "Heavy snowfall and snow covered roads in northern Japan.",
+    "countries": [
+      "Japan"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.8,
+    "tags": [
+      "weather",
+      "terrain"
+    ]
   },
   {
-    "id": "jp-temple-001",
-    "feature": "buddhist temple pagoda architecture",
-    "description": "Buddhist temples with pagoda roofs are common in Japan.",
-    "countries": ["Japan"],
-    "regions": [],
-    "weight": 0.88,
-    "tags": ["landmarks", "culture"]
+    "id": "jp-rice-001",
+    "feature": "rice paddy fields terraced farmland",
+    "description": "Rice paddies are common across rural Japan.",
+    "countries": [
+      "Japan"
+    ],
+    "regions": [
+      "central",
+      "south"
+    ],
+    "weight": 0.72,
+    "tags": [
+      "agriculture",
+      "vegetation"
+    ]
   },
   {
     "id": "ru-cyrillic-001",
     "feature": "cyrillic script on road signs",
-    "description": "Cyrillic writing on signs strongly indicates Russia, Ukraine, Bulgaria or Belarus.",
-    "countries": ["Russia", "Ukraine", "Bulgaria", "Belarus", "Mongolia"],
+    "description": "Cyrillic writing on signs strongly indicates Russia or former USSR.",
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Bulgaria",
+      "Belarus",
+      "Mongolia",
+      "Kazakhstan",
+      "Kyrgyzstan"
+    ],
     "regions": [],
     "weight": 0.88,
-    "tags": ["signs", "script"]
+    "tags": [
+      "signs",
+      "script"
+    ]
   },
   {
     "id": "ru-pole-001",
     "feature": "wooden utility pole with crossbar",
     "description": "Old wooden utility poles with horizontal crossbars common in rural Russia.",
-    "countries": ["Russia", "Ukraine", "Belarus"],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Belarus"
+    ],
     "regions": [],
     "weight": 0.61,
-    "tags": ["infrastructure", "poles"]
+    "tags": [
+      "infrastructure",
+      "poles"
+    ]
   },
   {
-    "id": "ru-landscape-001",
+    "id": "ru-birch-001",
     "feature": "birch tree forest flat landscape",
     "description": "Birch forests and flat terrain are iconic in Russia.",
-    "countries": ["Russia", "Belarus", "Finland"],
-    "regions": [],
+    "countries": [
+      "Russia",
+      "Belarus",
+      "Finland",
+      "Estonia",
+      "Latvia",
+      "Lithuania"
+    ],
+    "regions": [
+      "north",
+      "central"
+    ],
     "weight": 0.65,
-    "tags": ["vegetation", "terrain"]
+    "tags": [
+      "vegetation",
+      "terrain"
+    ]
   },
   {
-    "id": "ru-architecture-001",
+    "id": "ru-soviet-001",
     "feature": "soviet era concrete apartment blocks",
     "description": "Soviet brutalist housing blocks found across Russia and former USSR.",
-    "countries": ["Russia", "Ukraine", "Belarus", "Kazakhstan", "Georgia"],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "Kazakhstan",
+      "Georgia",
+      "Armenia",
+      "Azerbaijan"
+    ],
     "regions": [],
     "weight": 0.78,
-    "tags": ["architecture", "urban"]
+    "tags": [
+      "architecture",
+      "urban"
+    ]
+  },
+  {
+    "id": "ru-snow-001",
+    "feature": "snow covered road siberia frozen tundra",
+    "description": "Extreme snow and frozen tundra in Siberia.",
+    "countries": [
+      "Russia"
+    ],
+    "regions": [
+      "east",
+      "north"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "weather",
+      "terrain"
+    ]
+  },
+  {
+    "id": "ru-steppe-001",
+    "feature": "flat dry steppe grassland endless horizon",
+    "description": "Flat dry steppes in southern Russia and Kazakhstan.",
+    "countries": [
+      "Russia",
+      "Kazakhstan",
+      "Mongolia"
+    ],
+    "regions": [
+      "south",
+      "east"
+    ],
+    "weight": 0.72,
+    "tags": [
+      "terrain",
+      "vegetation"
+    ]
   },
   {
     "id": "au-sign-001",
-    "feature": "kangaroo warning road sign",
+    "feature": "kangaroo warning road sign yellow diamond",
     "description": "Yellow diamond warning sign with kangaroo silhouette.",
-    "countries": ["Australia"],
-    "regions": ["Western Australia", "South Australia", "Northern Territory"],
+    "countries": [
+      "Australia"
+    ],
+    "regions": [
+      "west",
+      "central",
+      "south"
+    ],
     "weight": 0.99,
-    "tags": ["signs", "wildlife"]
+    "tags": [
+      "signs",
+      "wildlife"
+    ]
   },
   {
     "id": "au-road-001",
     "feature": "red dirt road unpaved outback",
     "description": "Distinctive red laterite soil roads in Australian outback.",
-    "countries": ["Australia"],
-    "regions": ["Western Australia", "Northern Territory", "Queensland"],
-    "weight": 0.90,
-    "tags": ["road", "terrain"]
+    "countries": [
+      "Australia"
+    ],
+    "regions": [
+      "west",
+      "central",
+      "north"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "road",
+      "terrain"
+    ]
   },
   {
-    "id": "au-vegetation-001",
+    "id": "au-eucalyptus-001",
     "feature": "eucalyptus gum tree dry scrubland",
-    "description": "Eucalyptus trees are native to Australia and highly distinctive.",
-    "countries": ["Australia"],
+    "description": "Eucalyptus trees are native to Australia.",
+    "countries": [
+      "Australia"
+    ],
     "regions": [],
-    "weight": 0.88,
-    "tags": ["vegetation"]
+    "weight": 0.9,
+    "tags": [
+      "vegetation"
+    ]
   },
   {
     "id": "au-urban-001",
     "feature": "australian suburban house red brick tile roof",
-    "description": "Distinctive Australian suburban architecture with red brick and tile roofs.",
-    "countries": ["Australia"],
-    "regions": [],
+    "description": "Distinctive Australian suburban architecture.",
+    "countries": [
+      "Australia"
+    ],
+    "regions": [
+      "east",
+      "south"
+    ],
     "weight": 0.72,
-    "tags": ["architecture", "urban"]
+    "tags": [
+      "architecture",
+      "urban"
+    ]
+  },
+  {
+    "id": "au-tropical-001",
+    "feature": "tropical queensland vegetation sugarcane",
+    "description": "Tropical vegetation and sugarcane fields in northern Australia.",
+    "countries": [
+      "Australia"
+    ],
+    "regions": [
+      "north",
+      "east"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "vegetation",
+      "agriculture"
+    ]
   },
   {
     "id": "pl-bollard-001",
     "feature": "white bollard with black cap stripe",
     "description": "White flexible bollards with a distinctive black top band.",
-    "countries": ["Poland", "Lithuania", "Latvia"],
+    "countries": [
+      "Poland",
+      "Lithuania",
+      "Latvia",
+      "Estonia"
+    ],
     "regions": [],
     "weight": 0.82,
-    "tags": ["bollards", "road-furniture"]
+    "tags": [
+      "bollards",
+      "road-furniture"
+    ]
   },
   {
     "id": "pl-road-001",
     "feature": "red and white striped road barrier poland",
     "description": "Distinctive red and white road barriers used in Poland.",
-    "countries": ["Poland"],
+    "countries": [
+      "Poland"
+    ],
     "regions": [],
     "weight": 0.75,
-    "tags": ["road", "barriers"]
-  },
-  {
-    "id": "br-road-001",
-    "feature": "red and white striped road barrier brazil",
-    "description": "Distinctive red and white striped barriers on Brazilian roads.",
-    "countries": ["Brazil"],
-    "regions": [],
-    "weight": 0.70,
-    "tags": ["road", "barriers"]
+    "tags": [
+      "road",
+      "barriers"
+    ]
   },
   {
     "id": "br-vegetation-001",
-    "feature": "tropical rainforest dense green jungle",
-    "description": "Dense tropical vegetation common in Brazil and South America.",
-    "countries": ["Brazil", "Colombia", "Peru", "Ecuador"],
-    "regions": [],
-    "weight": 0.65,
-    "tags": ["vegetation"]
+    "feature": "tropical rainforest dense green jungle amazon",
+    "description": "Dense tropical vegetation common in Brazil.",
+    "countries": [
+      "Brazil",
+      "Colombia",
+      "Peru",
+      "Ecuador",
+      "Bolivia"
+    ],
+    "regions": [
+      "north",
+      "west"
+    ],
+    "weight": 0.68,
+    "tags": [
+      "vegetation"
+    ]
   },
   {
     "id": "br-architecture-001",
     "feature": "colorful painted buildings favela hillside",
     "description": "Colorful hillside buildings characteristic of Brazilian cities.",
-    "countries": ["Brazil"],
-    "regions": [],
+    "countries": [
+      "Brazil"
+    ],
+    "regions": [
+      "east",
+      "south"
+    ],
     "weight": 0.82,
-    "tags": ["architecture", "urban"]
+    "tags": [
+      "architecture",
+      "urban"
+    ]
   },
   {
-    "id": "us-road-001",
+    "id": "br-cerrado-001",
+    "feature": "dry cerrado savanna central brazil red soil",
+    "description": "Red soil and dry cerrado vegetation in central Brazil.",
+    "countries": [
+      "Brazil"
+    ],
+    "regions": [
+      "central",
+      "west"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "terrain",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "us-highway-001",
     "feature": "american highway interstate road sign green",
     "description": "Green rectangular highway signs are distinctive to USA.",
-    "countries": ["USA"],
+    "countries": [
+      "USA"
+    ],
     "regions": [],
-    "weight": 0.88,
-    "tags": ["signs", "road"]
+    "weight": 0.9,
+    "tags": [
+      "signs",
+      "road"
+    ]
   },
   {
     "id": "us-mailbox-001",
     "feature": "rural mailbox on post roadside",
-    "description": "Standalone mailboxes on posts at the roadside are very common in USA.",
-    "countries": ["USA", "Canada"],
+    "description": "Standalone mailboxes on posts at the roadside.",
+    "countries": [
+      "USA",
+      "Canada"
+    ],
     "regions": [],
     "weight": 0.72,
-    "tags": ["infrastructure"]
+    "tags": [
+      "infrastructure"
+    ]
   },
   {
-    "id": "us-architecture-001",
-    "feature": "american wooden house front porch",
-    "description": "Wooden single family homes with front porches are iconic in USA.",
-    "countries": ["USA", "Canada"],
-    "regions": [],
-    "weight": 0.70,
-    "tags": ["architecture"]
+    "id": "us-midwest-001",
+    "feature": "flat corn soybean farmland midwest plains",
+    "description": "Endless flat agricultural fields in the American midwest.",
+    "countries": [
+      "USA"
+    ],
+    "regions": [
+      "central",
+      "north"
+    ],
+    "weight": 0.8,
+    "tags": [
+      "agriculture",
+      "terrain"
+    ]
+  },
+  {
+    "id": "us-desert-001",
+    "feature": "desert southwest cactus saguaro red rock",
+    "description": "Saguaro cactus and red rock desert in American southwest.",
+    "countries": [
+      "USA"
+    ],
+    "regions": [
+      "west",
+      "south"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "us-south-001",
+    "feature": "spanish moss hanging oak trees south",
+    "description": "Spanish moss hanging from oak trees in American south.",
+    "countries": [
+      "USA"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "vegetation"
+    ]
+  },
+  {
+    "id": "ca-road-001",
+    "feature": "canadian road sign blue white french english",
+    "description": "Bilingual French and English road signs in Canada.",
+    "countries": [
+      "Canada"
+    ],
+    "regions": [
+      "east"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "signs",
+      "language"
+    ]
+  },
+  {
+    "id": "ca-rockies-001",
+    "feature": "rocky mountains pine forest canada",
+    "description": "Rocky Mountains with dense pine forests in western Canada.",
+    "countries": [
+      "Canada"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "terrain",
+      "vegetation"
+    ]
   },
   {
     "id": "za-road-001",
     "feature": "yellow road line markings south africa",
     "description": "South Africa uses yellow road line markings.",
-    "countries": ["South Africa"],
+    "countries": [
+      "South Africa"
+    ],
     "regions": [],
-    "weight": 0.65,
-    "tags": ["road", "markings"]
+    "weight": 0.7,
+    "tags": [
+      "road",
+      "markings"
+    ]
   },
   {
-    "id": "za-vegetation-001",
-    "feature": "savanna dry grassland acacia tree",
-    "description": "Savanna with acacia trees is characteristic of South Africa.",
-    "countries": ["South Africa", "Kenya", "Tanzania", "Botswana"],
+    "id": "za-savanna-001",
+    "feature": "savanna dry grassland acacia tree africa",
+    "description": "Savanna with acacia trees characteristic of South Africa.",
+    "countries": [
+      "South Africa",
+      "Kenya",
+      "Tanzania",
+      "Botswana",
+      "Zimbabwe",
+      "Namibia"
+    ],
     "regions": [],
     "weight": 0.68,
-    "tags": ["vegetation", "terrain"]
+    "tags": [
+      "vegetation",
+      "terrain"
+    ]
   },
   {
-    "id": "in-road-001",
-    "feature": "colorful trucks decorated painted india",
-    "description": "Highly decorated and painted trucks are very common in India.",
-    "countries": ["India", "Pakistan"],
+    "id": "za-township-001",
+    "feature": "township informal settlement corrugated iron roof",
+    "description": "Informal settlements with corrugated iron roofs in South Africa.",
+    "countries": [
+      "South Africa"
+    ],
     "regions": [],
     "weight": 0.82,
-    "tags": ["vehicles"]
+    "tags": [
+      "architecture",
+      "urban"
+    ]
   },
   {
-    "id": "in-architecture-001",
+    "id": "in-trucks-001",
+    "feature": "colorful decorated painted trucks india",
+    "description": "Highly decorated and painted trucks are very common in India.",
+    "countries": [
+      "India",
+      "Pakistan",
+      "Bangladesh"
+    ],
+    "regions": [],
+    "weight": 0.82,
+    "tags": [
+      "vehicles"
+    ]
+  },
+  {
+    "id": "in-temple-001",
     "feature": "hindu temple colorful gopuram tower",
     "description": "Colorful Hindu temple towers are distinctive to India.",
-    "countries": ["India"],
-    "regions": [],
+    "countries": [
+      "India"
+    ],
+    "regions": [
+      "south"
+    ],
     "weight": 0.95,
-    "tags": ["landmarks", "culture"]
+    "tags": [
+      "landmarks",
+      "culture"
+    ]
+  },
+  {
+    "id": "in-north-001",
+    "feature": "himalaya mountains snow peaks northern india",
+    "description": "Himalayan peaks visible in northern India.",
+    "countries": [
+      "India",
+      "Nepal"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
   },
   {
     "id": "fr-road-001",
-    "feature": "french road sign blue white",
+    "feature": "french road sign blue white european",
     "description": "French road signs have distinctive blue and white coloring.",
-    "countries": ["France", "Belgium", "Switzerland"],
+    "countries": [
+      "France",
+      "Belgium",
+      "Luxembourg"
+    ],
     "regions": [],
     "weight": 0.72,
-    "tags": ["signs", "road"]
+    "tags": [
+      "signs",
+      "road"
+    ]
   },
   {
     "id": "fr-architecture-001",
     "feature": "french haussmann stone building balcony paris",
-    "description": "Classic Haussmann-style buildings with stone facades and iron balconies.",
-    "countries": ["France"],
-    "regions": ["Ile-de-France"],
-    "weight": 0.85,
-    "tags": ["architecture", "urban"]
+    "description": "Classic Haussmann-style buildings with stone facades.",
+    "countries": [
+      "France"
+    ],
+    "regions": [
+      "central",
+      "north"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "architecture",
+      "urban"
+    ]
+  },
+  {
+    "id": "fr-south-001",
+    "feature": "lavender field provence southern france",
+    "description": "Lavender fields in southern France.",
+    "countries": [
+      "France"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "vegetation",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "mx-tope-001",
+    "feature": "tope speed bump sign mexico",
+    "description": "Tope signs warning of speed bumps are common in Mexico.",
+    "countries": [
+      "Mexico"
+    ],
+    "regions": [],
+    "weight": 0.9,
+    "tags": [
+      "signs",
+      "road"
+    ]
   },
   {
     "id": "mx-architecture-001",
-    "feature": "colorful painted concrete building latin america",
-    "description": "Brightly painted buildings are common across Mexico and Latin America.",
-    "countries": ["Mexico", "Colombia", "Peru", "Guatemala"],
-    "regions": [],
-    "weight": 0.65,
-    "tags": ["architecture"]
+    "feature": "colorful colonial spanish architecture mexico",
+    "description": "Colonial Spanish architecture with colorful facades.",
+    "countries": [
+      "Mexico"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.8,
+    "tags": [
+      "architecture"
+    ]
   },
   {
-    "id": "mx-road-001",
-    "feature": "tope speed bump sign mexico",
-    "description": "Tope signs warning of speed bumps are common in Mexico.",
-    "countries": ["Mexico"],
-    "regions": [],
-    "weight": 0.88,
-    "tags": ["signs", "road"]
+    "id": "mx-desert-001",
+    "feature": "sonoran desert cactus dry mexico",
+    "description": "Sonoran desert with cactus in northern Mexico.",
+    "countries": [
+      "Mexico"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "terrain",
+      "vegetation"
+    ]
   },
   {
     "id": "se-road-001",
     "feature": "swedish road sign black text yellow background",
     "description": "Swedish road signs have distinctive black on yellow coloring.",
-    "countries": ["Sweden", "Norway", "Denmark"],
+    "countries": [
+      "Sweden",
+      "Norway",
+      "Denmark"
+    ],
     "regions": [],
     "weight": 0.75,
-    "tags": ["signs", "road"]
+    "tags": [
+      "signs",
+      "road"
+    ]
   },
   {
-    "id": "no-landscape-001",
+    "id": "no-fjord-001",
     "feature": "fjord mountains norway dramatic landscape",
     "description": "Dramatic fjord landscapes are iconic to Norway.",
-    "countries": ["Norway"],
-    "regions": [],
-    "weight": 0.90,
-    "tags": ["terrain", "landscape"]
+    "countries": [
+      "Norway"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.95,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
   },
   {
-    "id": "nz-landscape-001",
-    "feature": "green rolling hills sheep pasture",
+    "id": "no-north-001",
+    "feature": "arctic tundra norway northern lights midnight sun",
+    "description": "Arctic tundra in northern Norway.",
+    "countries": [
+      "Norway"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "weather"
+    ]
+  },
+  {
+    "id": "fi-001",
+    "feature": "finland lake forest pine flat",
+    "description": "Flat pine forests and lakes are iconic in Finland.",
+    "countries": [
+      "Finland"
+    ],
+    "regions": [
+      "central",
+      "east"
+    ],
+    "weight": 0.8,
+    "tags": [
+      "vegetation",
+      "terrain"
+    ]
+  },
+  {
+    "id": "nz-sheep-001",
+    "feature": "green rolling hills sheep pasture new zealand",
     "description": "Lush green rolling hills with sheep are iconic in New Zealand.",
-    "countries": ["New Zealand"],
-    "regions": [],
-    "weight": 0.80,
-    "tags": ["terrain", "vegetation"]
+    "countries": [
+      "New Zealand"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "vegetation"
+    ]
   },
   {
-    "id": "th-architecture-001",
-    "feature": "buddhist temple golden spire thailand",
-    "description": "Golden Buddhist temples and spires are characteristic of Thailand.",
-    "countries": ["Thailand"],
+    "id": "nz-maori-001",
+    "feature": "maori cultural signage new zealand",
+    "description": "Maori language and cultural signage unique to New Zealand.",
+    "countries": [
+      "New Zealand"
+    ],
     "regions": [],
+    "weight": 0.95,
+    "tags": [
+      "signs",
+      "culture"
+    ]
+  },
+  {
+    "id": "th-temple-001",
+    "feature": "buddhist temple golden spire thailand wat",
+    "description": "Golden Buddhist temples and spires characteristic of Thailand.",
+    "countries": [
+      "Thailand"
+    ],
+    "regions": [
+      "central"
+    ],
     "weight": 0.92,
-    "tags": ["landmarks", "culture"]
+    "tags": [
+      "landmarks",
+      "culture"
+    ]
+  },
+  {
+    "id": "th-north-001",
+    "feature": "mountainous jungle northern thailand myanmar border",
+    "description": "Mountainous jungle terrain in northern Thailand.",
+    "countries": [
+      "Thailand"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "terrain",
+      "vegetation"
+    ]
   },
   {
     "id": "kr-hangul-001",
     "feature": "korean hangul script signage",
     "description": "Hangul script on signs is a definitive South Korea indicator.",
-    "countries": ["South Korea"],
+    "countries": [
+      "South Korea"
+    ],
     "regions": [],
     "weight": 0.99,
-    "tags": ["signs", "script"]
+    "tags": [
+      "signs",
+      "script"
+    ]
+  },
+  {
+    "id": "kr-urban-001",
+    "feature": "dense korean urban apartment tower blocks",
+    "description": "High density apartment tower blocks in Korean cities.",
+    "countries": [
+      "South Korea"
+    ],
+    "regions": [
+      "central",
+      "west"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "architecture",
+      "urban"
+    ]
   },
   {
     "id": "cn-simplified-001",
     "feature": "chinese simplified characters signage",
     "description": "Simplified Chinese characters on signs indicate mainland China.",
-    "countries": ["China"],
+    "countries": [
+      "China"
+    ],
     "regions": [],
-    "weight": 0.95,
-    "tags": ["signs", "script"]
+    "weight": 0.97,
+    "tags": [
+      "signs",
+      "script"
+    ]
   },
   {
-    "id": "id-road-001",
-    "feature": "indonesian road dense tropical vegetation motorbikes",
-    "description": "Dense tropical vegetation and many motorbikes are common in Indonesia.",
-    "countries": ["Indonesia"],
+    "id": "cn-rural-001",
+    "feature": "china rural village terraced rice paddy",
+    "description": "Terraced rice paddies in rural southern China.",
+    "countries": [
+      "China"
+    ],
+    "regions": [
+      "south",
+      "west"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "agriculture",
+      "terrain"
+    ]
+  },
+  {
+    "id": "id-001",
+    "feature": "indonesian road tropical vegetation motorbikes dense",
+    "description": "Dense tropical vegetation and many motorbikes in Indonesia.",
+    "countries": [
+      "Indonesia"
+    ],
+    "regions": [],
+    "weight": 0.75,
+    "tags": [
+      "road",
+      "vehicles",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "id-bali-001",
+    "feature": "bali hindu temple rice terrace indonesia",
+    "description": "Balinese Hindu temples and rice terraces.",
+    "countries": [
+      "Indonesia"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "landmarks",
+      "culture"
+    ]
+  },
+  {
+    "id": "ar-pampas-001",
+    "feature": "pampas flat dry grassland argentina cattle",
+    "description": "Flat pampas grasslands with cattle in Argentina.",
+    "countries": [
+      "Argentina"
+    ],
+    "regions": [
+      "central",
+      "south"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "terrain",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "ar-andes-001",
+    "feature": "andes mountains dry rocky argentina",
+    "description": "Dry rocky Andes mountains in western Argentina.",
+    "countries": [
+      "Argentina",
+      "Chile"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.8,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "cl-001",
+    "feature": "atacama desert dry chile pacific coast",
+    "description": "Atacama desert and Pacific coast in Chile.",
+    "countries": [
+      "Chile"
+    ],
+    "regions": [
+      "north",
+      "west"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "cl-south-001",
+    "feature": "patagonia glacier lake mountain southern chile",
+    "description": "Patagonian glaciers and lakes in southern Chile.",
+    "countries": [
+      "Chile",
+      "Argentina"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "co-001",
+    "feature": "colombia coffee plantation mountain green",
+    "description": "Coffee plantations on green mountains in Colombia.",
+    "countries": [
+      "Colombia"
+    ],
+    "regions": [
+      "central",
+      "west"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "agriculture",
+      "terrain"
+    ]
+  },
+  {
+    "id": "pe-001",
+    "feature": "peru inca ruins mountain machu picchu",
+    "description": "Inca ruins and high altitude mountains in Peru.",
+    "countries": [
+      "Peru"
+    ],
+    "regions": [
+      "central",
+      "south"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "landmarks",
+      "terrain"
+    ]
+  },
+  {
+    "id": "ke-001",
+    "feature": "kenya savanna wildlife national park",
+    "description": "Savanna and wildlife parks in Kenya.",
+    "countries": [
+      "Kenya"
+    ],
+    "regions": [
+      "central",
+      "south"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "ng-001",
+    "feature": "nigeria west africa red laterite road",
+    "description": "Red laterite roads in West Africa.",
+    "countries": [
+      "Nigeria",
+      "Ghana",
+      "Senegal",
+      "Ivory Coast"
+    ],
     "regions": [],
     "weight": 0.72,
-    "tags": ["road", "vehicles", "vegetation"]
+    "tags": [
+      "road",
+      "terrain"
+    ]
   },
   {
-    "id": "ar-landscape-001",
-    "feature": "pampas flat dry grassland argentina",
-    "description": "Flat dry pampas grasslands are iconic in Argentina.",
-    "countries": ["Argentina"],
+    "id": "gh-001",
+    "feature": "ghana west africa colorful market street",
+    "description": "Colorful market streets in West African cities.",
+    "countries": [
+      "Ghana",
+      "Nigeria",
+      "Senegal"
+    ],
+    "regions": [],
+    "weight": 0.68,
+    "tags": [
+      "urban",
+      "culture"
+    ]
+  },
+  {
+    "id": "eg-001",
+    "feature": "egypt desert sand arabic signs cairo",
+    "description": "Desert landscape and Arabic signs in Egypt.",
+    "countries": [
+      "Egypt"
+    ],
+    "regions": [
+      "north",
+      "east"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "signs"
+    ]
+  },
+  {
+    "id": "tr-001",
+    "feature": "turkey mosque minaret blue sky",
+    "description": "Mosques with minarets are common across Turkey.",
+    "countries": [
+      "Turkey"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "landmarks",
+      "culture"
+    ]
+  },
+  {
+    "id": "tr-coast-001",
+    "feature": "turkey aegean coast white buildings blue sea",
+    "description": "White buildings along the Aegean coast of Turkey.",
+    "countries": [
+      "Turkey"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.8,
+    "tags": [
+      "architecture",
+      "landscape"
+    ]
+  },
+  {
+    "id": "gr-001",
+    "feature": "greece white blue buildings aegean islands",
+    "description": "Iconic white and blue buildings on Greek islands.",
+    "countries": [
+      "Greece"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "architecture",
+      "landscape"
+    ]
+  },
+  {
+    "id": "it-001",
+    "feature": "italy roman architecture colosseum historic",
+    "description": "Roman and historic architecture in Italy.",
+    "countries": [
+      "Italy"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "landmarks",
+      "architecture"
+    ]
+  },
+  {
+    "id": "it-north-001",
+    "feature": "italian alps mountain valley north italy",
+    "description": "Alpine mountain valleys in northern Italy.",
+    "countries": [
+      "Italy"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.8,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "es-001",
+    "feature": "spain dry arid landscape castile plateau",
+    "description": "Dry Castilian plateau landscape in central Spain.",
+    "countries": [
+      "Spain"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "es-south-001",
+    "feature": "andalusia white village southern spain",
+    "description": "White washed villages in southern Spain.",
+    "countries": [
+      "Spain"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "architecture",
+      "landscape"
+    ]
+  },
+  {
+    "id": "pt-001",
+    "feature": "portugal azulejo blue tile building",
+    "description": "Distinctive blue ceramic tile facades in Portugal.",
+    "countries": [
+      "Portugal"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "architecture"
+    ]
+  },
+  {
+    "id": "de-001",
+    "feature": "germany autobahn highway road sign blue",
+    "description": "German autobahn with distinctive blue highway signs.",
+    "countries": [
+      "Germany"
+    ],
+    "regions": [],
+    "weight": 0.82,
+    "tags": [
+      "road",
+      "signs"
+    ]
+  },
+  {
+    "id": "de-bavaria-001",
+    "feature": "bavaria alpine mountain church steeple germany",
+    "description": "Alpine scenery with church steeples in Bavaria.",
+    "countries": [
+      "Germany"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "nl-001",
+    "feature": "netherlands flat polder windmill canal",
+    "description": "Flat polder landscape with windmills and canals.",
+    "countries": [
+      "Netherlands"
+    ],
+    "regions": [],
+    "weight": 0.92,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "be-001",
+    "feature": "belgium brick row houses cobblestone street",
+    "description": "Brick row houses and cobblestone streets in Belgium.",
+    "countries": [
+      "Belgium"
+    ],
+    "regions": [],
+    "weight": 0.8,
+    "tags": [
+      "architecture",
+      "urban"
+    ]
+  },
+  {
+    "id": "ch-001",
+    "feature": "switzerland alpine meadow snow peak chalet",
+    "description": "Alpine meadows and chalets in Switzerland.",
+    "countries": [
+      "Switzerland"
+    ],
+    "regions": [
+      "south",
+      "central"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "terrain",
+      "architecture"
+    ]
+  },
+  {
+    "id": "at-001",
+    "feature": "austria alpine village baroque church",
+    "description": "Alpine villages with baroque churches in Austria.",
+    "countries": [
+      "Austria"
+    ],
+    "regions": [
+      "west",
+      "central"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "landmarks",
+      "architecture"
+    ]
+  },
+  {
+    "id": "cz-001",
+    "feature": "czech republic bohemian baroque architecture prague",
+    "description": "Baroque and gothic architecture in Czech cities.",
+    "countries": [
+      "Czechia"
+    ],
+    "regions": [
+      "west",
+      "central"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "architecture",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "hu-001",
+    "feature": "hungary flat puszta plain sunflower field",
+    "description": "Flat puszta plains with sunflower fields in Hungary.",
+    "countries": [
+      "Hungary"
+    ],
+    "regions": [
+      "central",
+      "east"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "terrain",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "ro-001",
+    "feature": "romania carpathian mountain forest church",
+    "description": "Carpathian mountains and wooden churches in Romania.",
+    "countries": [
+      "Romania"
+    ],
+    "regions": [
+      "north",
+      "central"
+    ],
+    "weight": 0.8,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "rs-001",
+    "feature": "serbia balkan village orthodox church cyrillic",
+    "description": "Balkan villages with orthodox churches and cyrillic signs.",
+    "countries": [
+      "Serbia"
+    ],
+    "regions": [],
+    "weight": 0.8,
+    "tags": [
+      "architecture",
+      "signs"
+    ]
+  },
+  {
+    "id": "hr-001",
+    "feature": "croatia adriatic coast dalmatian stone buildings",
+    "description": "Stone buildings along the Adriatic coast of Croatia.",
+    "countries": [
+      "Croatia"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "architecture",
+      "landscape"
+    ]
+  },
+  {
+    "id": "ua-001",
+    "feature": "ukraine sunflower field flat steppe",
+    "description": "Endless sunflower fields on flat Ukrainian steppe.",
+    "countries": [
+      "Ukraine"
+    ],
+    "regions": [
+      "central",
+      "south"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "agriculture",
+      "terrain"
+    ]
+  },
+  {
+    "id": "by-001",
+    "feature": "belarus flat forest road soviet architecture",
+    "description": "Flat forested roads and Soviet architecture in Belarus.",
+    "countries": [
+      "Belarus"
+    ],
     "regions": [],
     "weight": 0.78,
-    "tags": ["terrain", "vegetation"]
+    "tags": [
+      "terrain",
+      "architecture"
+    ]
+  },
+  {
+    "id": "kz-001",
+    "feature": "kazakhstan steppe flat dry nomadic yurt",
+    "description": "Vast flat steppe and nomadic yurts in Kazakhstan.",
+    "countries": [
+      "Kazakhstan"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "culture"
+    ]
+  },
+  {
+    "id": "mn-001",
+    "feature": "mongolia steppe yurt ger nomadic flat",
+    "description": "Vast Mongolian steppe with traditional ger yurts.",
+    "countries": [
+      "Mongolia"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "terrain",
+      "culture"
+    ]
+  },
+  {
+    "id": "ge-001",
+    "feature": "georgia caucasus mountain orthodox church tower",
+    "description": "Caucasus mountains and orthodox church towers in Georgia.",
+    "countries": [
+      "Georgia"
+    ],
+    "regions": [
+      "north",
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "am-001",
+    "feature": "armenia mount ararat dry rocky landscape",
+    "description": "Dry rocky landscape with Mount Ararat in Armenia.",
+    "countries": [
+      "Armenia"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "az-001",
+    "feature": "azerbaijan baku caspian sea oil field",
+    "description": "Caspian Sea coastline and oil fields near Baku.",
+    "countries": [
+      "Azerbaijan"
+    ],
+    "regions": [
+      "east"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "landscape",
+      "industry"
+    ]
+  },
+  {
+    "id": "sg-001",
+    "feature": "singapore modern skyscraper tropical urban",
+    "description": "Modern skyscrapers in tropical urban Singapore.",
+    "countries": [
+      "Singapore"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "architecture",
+      "urban"
+    ]
+  },
+  {
+    "id": "my-001",
+    "feature": "malaysia tropical jungle palm oil plantation",
+    "description": "Tropical jungle and palm oil plantations in Malaysia.",
+    "countries": [
+      "Malaysia"
+    ],
+    "regions": [],
+    "weight": 0.8,
+    "tags": [
+      "vegetation",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "ph-001",
+    "feature": "philippines jeepney colorful vehicle tropical",
+    "description": "Colorful jeepneys are iconic in the Philippines.",
+    "countries": [
+      "Philippines"
+    ],
+    "regions": [],
+    "weight": 0.95,
+    "tags": [
+      "vehicles",
+      "culture"
+    ]
+  },
+  {
+    "id": "vn-001",
+    "feature": "vietnam motorbike scooter dense street",
+    "description": "Dense traffic of motorbikes and scooters in Vietnam.",
+    "countries": [
+      "Vietnam"
+    ],
+    "regions": [],
+    "weight": 0.82,
+    "tags": [
+      "vehicles",
+      "urban"
+    ]
+  },
+  {
+    "id": "vn-north-001",
+    "feature": "vietnam rice terrace mountain north",
+    "description": "Terraced rice paddies in northern Vietnam mountains.",
+    "countries": [
+      "Vietnam"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "agriculture",
+      "terrain"
+    ]
+  },
+  {
+    "id": "bd-001",
+    "feature": "bangladesh rickshaw bicycle dense tropical",
+    "description": "Rickshaws and dense traffic in Bangladesh.",
+    "countries": [
+      "Bangladesh"
+    ],
+    "regions": [],
+    "weight": 0.85,
+    "tags": [
+      "vehicles",
+      "urban"
+    ]
+  },
+  {
+    "id": "lk-001",
+    "feature": "sri lanka tea plantation hill tropical",
+    "description": "Tea plantations on green hills in Sri Lanka.",
+    "countries": [
+      "Sri Lanka"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "agriculture",
+      "terrain"
+    ]
+  },
+  {
+    "id": "np-001",
+    "feature": "nepal himalaya mountain stupa buddhist",
+    "description": "Himalayan peaks and Buddhist stupas in Nepal.",
+    "countries": [
+      "Nepal"
+    ],
+    "regions": [
+      "north",
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "pk-001",
+    "feature": "pakistan karakoram mountain desert dry",
+    "description": "Karakoram mountains and dry terrain in Pakistan.",
+    "countries": [
+      "Pakistan"
+    ],
+    "regions": [
+      "north",
+      "west"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "il-001",
+    "feature": "israel desert negev dead sea",
+    "description": "Negev desert and Dead Sea landscape in Israel.",
+    "countries": [
+      "Israel"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "jo-001",
+    "feature": "jordan wadi rum red desert arabic",
+    "description": "Red desert and Arabic signs in Jordan.",
+    "countries": [
+      "Jordan"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "signs"
+    ]
+  },
+  {
+    "id": "ma-001",
+    "feature": "morocco medina arabic blue painted building",
+    "description": "Blue painted buildings and Arabic medinas in Morocco.",
+    "countries": [
+      "Morocco"
+    ],
+    "regions": [
+      "north",
+      "west"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "architecture",
+      "culture"
+    ]
+  },
+  {
+    "id": "tn-001",
+    "feature": "tunisia white blue mediterranean coast",
+    "description": "White and blue Mediterranean architecture in Tunisia.",
+    "countries": [
+      "Tunisia"
+    ],
+    "regions": [
+      "north",
+      "east"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "architecture",
+      "landscape"
+    ]
+  },
+  {
+    "id": "et-001",
+    "feature": "ethiopia highland green mountain teff field",
+    "description": "Green highlands and teff fields in Ethiopia.",
+    "countries": [
+      "Ethiopia"
+    ],
+    "regions": [
+      "central",
+      "north"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "terrain",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "tz-001",
+    "feature": "tanzania kilimanjaro savanna east africa",
+    "description": "Mount Kilimanjaro and savanna in Tanzania.",
+    "countries": [
+      "Tanzania"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "ug-001",
+    "feature": "uganda east africa green tropical road",
+    "description": "Green tropical roads in Uganda.",
+    "countries": [
+      "Uganda"
+    ],
+    "regions": [],
+    "weight": 0.75,
+    "tags": [
+      "vegetation",
+      "road"
+    ]
+  },
+  {
+    "id": "sn-001",
+    "feature": "senegal west africa baobab tree dry",
+    "description": "Baobab trees are iconic in Senegal.",
+    "countries": [
+      "Senegal"
+    ],
+    "regions": [],
+    "weight": 0.88,
+    "tags": [
+      "vegetation"
+    ]
+  },
+  {
+    "id": "ec-001",
+    "feature": "ecuador andes highland volcano",
+    "description": "Andean highlands and volcanoes in Ecuador.",
+    "countries": [
+      "Ecuador"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "bo-001",
+    "feature": "bolivia altiplano high altitude flat dry",
+    "description": "High altitude altiplano plateau in Bolivia.",
+    "countries": [
+      "Bolivia"
+    ],
+    "regions": [
+      "west",
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "py-001",
+    "feature": "paraguay red soil tropical south america",
+    "description": "Red soil roads in Paraguay.",
+    "countries": [
+      "Paraguay"
+    ],
+    "regions": [],
+    "weight": 0.72,
+    "tags": [
+      "terrain",
+      "road"
+    ]
+  },
+  {
+    "id": "uy-001",
+    "feature": "uruguay rolling green hills cattle farm",
+    "description": "Rolling green hills and cattle farms in Uruguay.",
+    "countries": [
+      "Uruguay"
+    ],
+    "regions": [],
+    "weight": 0.78,
+    "tags": [
+      "terrain",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "ve-001",
+    "feature": "venezuela tropical coast caribbean mountain",
+    "description": "Tropical coast and mountains in Venezuela.",
+    "countries": [
+      "Venezuela"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "gt-001",
+    "feature": "guatemala mayan ruins volcano colonial",
+    "description": "Mayan ruins, volcanoes and colonial architecture in Guatemala.",
+    "countries": [
+      "Guatemala"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "landmarks",
+      "terrain"
+    ]
+  },
+  {
+    "id": "cu-001",
+    "feature": "cuba vintage american car colonial havana",
+    "description": "Vintage American cars and colonial buildings in Cuba.",
+    "countries": [
+      "Cuba"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "vehicles",
+      "architecture"
+    ]
+  },
+  {
+    "id": "do-001",
+    "feature": "dominican republic caribbean tropical beach palm",
+    "description": "Caribbean tropical landscape in Dominican Republic.",
+    "countries": [
+      "Dominican Republic"
+    ],
+    "regions": [],
+    "weight": 0.8,
+    "tags": [
+      "landscape",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "ie-001",
+    "feature": "ireland green field stone wall atlantic coast",
+    "description": "Green fields with stone walls on the Atlantic coast of Ireland.",
+    "countries": [
+      "Ireland"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "gb-001",
+    "feature": "uk red telephone box double decker bus",
+    "description": "Red telephone boxes and double decker buses in the UK.",
+    "countries": [
+      "UK"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.95,
+    "tags": [
+      "infrastructure",
+      "vehicles"
+    ]
+  },
+  {
+    "id": "gb-scotland-001",
+    "feature": "scotland highland moor heather mountain",
+    "description": "Highland moors with heather in Scotland.",
+    "countries": [
+      "UK"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "dk-001",
+    "feature": "denmark flat farmland wind turbine coast",
+    "description": "Flat farmland with wind turbines along Danish coast.",
+    "countries": [
+      "Denmark"
+    ],
+    "regions": [],
+    "weight": 0.82,
+    "tags": [
+      "terrain",
+      "industry"
+    ]
+  },
+  {
+    "id": "is-001",
+    "feature": "iceland volcanic lava field geothermal",
+    "description": "Volcanic lava fields and geothermal activity in Iceland.",
+    "countries": [
+      "Iceland"
+    ],
+    "regions": [],
+    "weight": 0.97,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "ee-001",
+    "feature": "estonia baltic flat forest pine road",
+    "description": "Flat pine forests and Baltic architecture in Estonia.",
+    "countries": [
+      "Estonia",
+      "Latvia",
+      "Lithuania"
+    ],
+    "regions": [],
+    "weight": 0.75,
+    "tags": [
+      "vegetation",
+      "terrain"
+    ]
+  },
+  {
+    "id": "lv-001",
+    "feature": "latvia riga art nouveau architecture baltic",
+    "description": "Art Nouveau architecture in Riga, Latvia.",
+    "countries": [
+      "Latvia"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "architecture",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "lt-001",
+    "feature": "lithuania amber coast dune forest baltic",
+    "description": "Amber coast and dune forests in Lithuania.",
+    "countries": [
+      "Lithuania"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.8,
+    "tags": [
+      "landscape",
+      "terrain"
+    ]
+  },
+  {
+    "id": "sk-001",
+    "feature": "slovakia tatra mountain castle hill",
+    "description": "Tatra mountains and hilltop castles in Slovakia.",
+    "countries": [
+      "Slovakia"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "si-001",
+    "feature": "slovenia alpine lake bled mountain",
+    "description": "Alpine lakes and mountains in Slovenia.",
+    "countries": [
+      "Slovenia"
+    ],
+    "regions": [
+      "north",
+      "west"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "ba-001",
+    "feature": "bosnia herzegovina ottoman bridge mosque balkan",
+    "description": "Ottoman architecture and mosques in Bosnia.",
+    "countries": [
+      "Bosnia and Herzegovina"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "architecture",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "al-001",
+    "feature": "albania mediterranean coast bunker mountain",
+    "description": "Mediterranean coast with bunkers in Albania.",
+    "countries": [
+      "Albania"
+    ],
+    "regions": [
+      "west"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "landscape",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "mk-001",
+    "feature": "north macedonia orthodox church lake ohrid",
+    "description": "Orthodox churches and Lake Ohrid in North Macedonia.",
+    "countries": [
+      "North Macedonia"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "landmarks",
+      "landscape"
+    ]
+  },
+  {
+    "id": "bg-001",
+    "feature": "bulgaria rose valley mountain monastery",
+    "description": "Rose valley and mountain monasteries in Bulgaria.",
+    "countries": [
+      "Bulgaria"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "landscape",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "md-001",
+    "feature": "moldova vineyard flat eastern europe",
+    "description": "Vineyards and flat landscape in Moldova.",
+    "countries": [
+      "Moldova"
+    ],
+    "regions": [],
+    "weight": 0.78,
+    "tags": [
+      "agriculture",
+      "terrain"
+    ]
+  },
+  {
+    "id": "driving-left-001",
+    "feature": "left hand traffic driving on left side",
+    "description": "Countries that drive on the left include Japan, Australia, UK, India, New Zealand.",
+    "countries": [
+      "Japan",
+      "Australia",
+      "UK",
+      "India",
+      "New Zealand",
+      "Thailand",
+      "Malaysia",
+      "Indonesia",
+      "South Africa",
+      "Kenya",
+      "Ireland"
+    ],
+    "regions": [],
+    "weight": 0.8,
+    "tags": [
+      "driving",
+      "meta"
+    ]
+  },
+  {
+    "id": "driving-right-001",
+    "feature": "right hand traffic driving on right side",
+    "description": "Most countries drive on the right side of the road.",
+    "countries": [
+      "USA",
+      "Canada",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "Russia",
+      "Brazil",
+      "China",
+      "Mexico"
+    ],
+    "regions": [],
+    "weight": 0.5,
+    "tags": [
+      "driving",
+      "meta"
+    ]
+  },
+  {
+    "id": "tropical-general-001",
+    "feature": "tropical humid climate lush green vegetation",
+    "description": "Tropical climate with lush green vegetation.",
+    "countries": [
+      "Brazil",
+      "Indonesia",
+      "Malaysia",
+      "Philippines",
+      "Thailand",
+      "Vietnam",
+      "Colombia",
+      "Ecuador",
+      "Sri Lanka"
+    ],
+    "regions": [],
+    "weight": 0.55,
+    "tags": [
+      "climate",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "arctic-general-001",
+    "feature": "arctic subarctic cold tundra permafrost",
+    "description": "Arctic and subarctic conditions with tundra.",
+    "countries": [
+      "Russia",
+      "Canada",
+      "Norway",
+      "Finland",
+      "Iceland"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.7,
+    "tags": [
+      "climate",
+      "terrain"
+    ]
+  },
+  {
+    "id": "desert-general-001",
+    "feature": "desert arid dry sand dune hot",
+    "description": "Desert and arid conditions.",
+    "countries": [
+      "Egypt",
+      "Saudi Arabia",
+      "Jordan",
+      "Morocco",
+      "Tunisia",
+      "Chile",
+      "Australia"
+    ],
+    "regions": [],
+    "weight": 0.55,
+    "tags": [
+      "climate",
+      "terrain"
+    ]
+  },
+  {
+    "id": "andorra-001",
+    "feature": "andorra pyrenees mountain duty free shop",
+    "description": "Tiny mountain country between France and Spain, known for duty free shopping.",
+    "countries": [
+      "Andorra"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "bhutan-001",
+    "feature": "bhutan dzong fortress monastery himalaya",
+    "description": "Distinctive dzong fortresses and monasteries in Bhutan.",
+    "countries": [
+      "Bhutan"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.95,
+    "tags": [
+      "landmarks",
+      "architecture"
+    ]
+  },
+  {
+    "id": "botswana-001",
+    "feature": "botswana kalahari desert dry savanna elephant",
+    "description": "Kalahari desert and elephant country in Botswana.",
+    "countries": [
+      "Botswana"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "cambodia-001",
+    "feature": "cambodia angkor wat khmer temple jungle",
+    "description": "Khmer temples and jungle in Cambodia.",
+    "countries": [
+      "Cambodia"
+    ],
+    "regions": [
+      "north",
+      "central"
+    ],
+    "weight": 0.95,
+    "tags": [
+      "landmarks",
+      "culture"
+    ]
+  },
+  {
+    "id": "cambodia-002",
+    "feature": "cambodia tuk tuk rice paddy flat tropical",
+    "description": "Tuk tuks and flat rice paddies in Cambodia.",
+    "countries": [
+      "Cambodia"
+    ],
+    "regions": [],
+    "weight": 0.8,
+    "tags": [
+      "vehicles",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "eswatini-001",
+    "feature": "eswatini swazi mountain southern africa",
+    "description": "Mountainous southern African kingdom of Eswatini.",
+    "countries": [
+      "Eswatini"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "greenland-001",
+    "feature": "greenland ice sheet glacier arctic fjord",
+    "description": "Vast ice sheet and arctic fjords in Greenland.",
+    "countries": [
+      "Greenland"
+    ],
+    "regions": [
+      "central",
+      "north"
+    ],
+    "weight": 0.97,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "kyrgyzstan-001",
+    "feature": "kyrgyzstan tian shan mountain yurt nomad",
+    "description": "Tian Shan mountains and nomadic yurts in Kyrgyzstan.",
+    "countries": [
+      "Kyrgyzstan"
+    ],
+    "regions": [
+      "central",
+      "north"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "terrain",
+      "culture"
+    ]
+  },
+  {
+    "id": "lebanon-001",
+    "feature": "lebanon cedar mountain mediterranean coast",
+    "description": "Cedar mountains and Mediterranean coast in Lebanon.",
+    "countries": [
+      "Lebanon"
+    ],
+    "regions": [
+      "central",
+      "west"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "lesotho-001",
+    "feature": "lesotho highland mountain kingdom southern africa blanket",
+    "description": "High altitude mountain kingdom surrounded by South Africa.",
+    "countries": [
+      "Lesotho"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "terrain",
+      "culture"
+    ]
+  },
+  {
+    "id": "liechtenstein-001",
+    "feature": "liechtenstein rhine valley alpine tiny country",
+    "description": "Tiny alpine country along the Rhine valley.",
+    "countries": [
+      "Liechtenstein"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "luxembourg-001",
+    "feature": "luxembourg city fortress gorge grand duchy",
+    "description": "Fortress city with deep gorges in Luxembourg.",
+    "countries": [
+      "Luxembourg"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "landmarks",
+      "architecture"
+    ]
+  },
+  {
+    "id": "montenegro-001",
+    "feature": "montenegro adriatic coast bay kotor mountain",
+    "description": "Bay of Kotor and dramatic mountains in Montenegro.",
+    "countries": [
+      "Montenegro"
+    ],
+    "regions": [
+      "west",
+      "south"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "landscape",
+      "terrain"
+    ]
+  },
+  {
+    "id": "namibia-001",
+    "feature": "namibia namib desert red dune sossusvlei",
+    "description": "Red sand dunes of the Namib desert in Namibia.",
+    "countries": [
+      "Namibia"
+    ],
+    "regions": [
+      "west",
+      "south"
+    ],
+    "weight": 0.95,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "namibia-002",
+    "feature": "namibia german colonial architecture windhoek",
+    "description": "German colonial architecture in Namibian cities.",
+    "countries": [
+      "Namibia"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "architecture",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "nigeria-002",
+    "feature": "nigeria lagos dense urban tropical west africa",
+    "description": "Dense tropical urban environment in Nigeria.",
+    "countries": [
+      "Nigeria"
+    ],
+    "regions": [
+      "south"
+    ],
+    "weight": 0.75,
+    "tags": [
+      "urban",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "oman-001",
+    "feature": "oman desert wadi arabic mountain frankincense",
+    "description": "Desert wadis and Arabic architecture in Oman.",
+    "countries": [
+      "Oman"
+    ],
+    "regions": [
+      "central",
+      "north"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "terrain",
+      "culture"
+    ]
+  },
+  {
+    "id": "palestine-001",
+    "feature": "palestine west bank arabic wall checkpoint",
+    "description": "Arabic signage and separation wall in Palestine.",
+    "countries": [
+      "Palestine"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "signs",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "panama-001",
+    "feature": "panama canal tropical central america",
+    "description": "Tropical central american country with the Panama canal.",
+    "countries": [
+      "Panama"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "landmarks",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "qatar-001",
+    "feature": "qatar doha modern skyscraper desert arabic",
+    "description": "Ultra modern skyscrapers in the desert in Qatar.",
+    "countries": [
+      "Qatar"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "architecture",
+      "urban"
+    ]
+  },
+  {
+    "id": "rwanda-001",
+    "feature": "rwanda thousand hills green tropical africa",
+    "description": "Lush green rolling hills across Rwanda.",
+    "countries": [
+      "Rwanda"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "terrain",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "san-marino-001",
+    "feature": "san marino medieval fortress hilltop italy",
+    "description": "Medieval hilltop fortress state within Italy.",
+    "countries": [
+      "San Marino"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.95,
+    "tags": [
+      "landmarks",
+      "architecture"
+    ]
+  },
+  {
+    "id": "sao-tome-001",
+    "feature": "sao tome principe tropical island atlantic africa",
+    "description": "Small tropical island nation off the coast of Africa.",
+    "countries": [
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "landscape",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "taiwan-001",
+    "feature": "taiwan traditional chinese temple lantern",
+    "description": "Traditional Chinese temples with lanterns in Taiwan.",
+    "countries": [
+      "Taiwan"
+    ],
+    "regions": [
+      "central",
+      "north"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "landmarks",
+      "culture"
+    ]
+  },
+  {
+    "id": "taiwan-002",
+    "feature": "taiwan scooter dense urban traditional chinese characters",
+    "description": "Dense scooter traffic and traditional Chinese characters on signs.",
+    "countries": [
+      "Taiwan"
+    ],
+    "regions": [],
+    "weight": 0.85,
+    "tags": [
+      "vehicles",
+      "signs"
+    ]
+  },
+  {
+    "id": "taiwan-003",
+    "feature": "taiwan mountain east coast pacific ocean",
+    "description": "Dramatic mountains dropping to the Pacific coast in eastern Taiwan.",
+    "countries": [
+      "Taiwan"
+    ],
+    "regions": [
+      "east"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "uae-001",
+    "feature": "united arab emirates dubai skyscraper desert highway",
+    "description": "Massive skyscrapers and wide desert highways in UAE.",
+    "countries": [
+      "United Arab Emirates"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "architecture",
+      "road"
+    ]
+  },
+  {
+    "id": "uganda-002",
+    "feature": "uganda kampala red road tropical east africa",
+    "description": "Red dirt roads and tropical vegetation in Uganda.",
+    "countries": [
+      "Uganda"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.78,
+    "tags": [
+      "road",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "costa-rica-001",
+    "feature": "costa rica rainforest volcano cloud forest tropical",
+    "description": "Rainforest, volcanoes and cloud forests in Costa Rica.",
+    "countries": [
+      "Costa Rica"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "vegetation",
+      "terrain"
+    ]
+  },
+  {
+    "id": "laos-001",
+    "feature": "laos mekong river buddhist temple tropical",
+    "description": "Mekong river and Buddhist temples in Laos.",
+    "countries": [
+      "Laos"
+    ],
+    "regions": [
+      "central",
+      "south"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "landmarks",
+      "landscape"
+    ]
+  },
+  {
+    "id": "madagascar-001",
+    "feature": "madagascar baobab avenue lemur unique island",
+    "description": "Unique baobab avenues and lemurs in Madagascar.",
+    "countries": [
+      "Madagascar"
+    ],
+    "regions": [
+      "west",
+      "central"
+    ],
+    "weight": 0.97,
+    "tags": [
+      "vegetation",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "mali-001",
+    "feature": "mali sahara desert mud mosque west africa",
+    "description": "Saharan desert and distinctive mud mosques in Mali.",
+    "countries": [
+      "Mali"
+    ],
+    "regions": [
+      "north",
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "terrain",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "tanzania-002",
+    "feature": "tanzania zanzibar island coast swahili",
+    "description": "Swahili coast and Zanzibar island in Tanzania.",
+    "countries": [
+      "Tanzania"
+    ],
+    "regions": [
+      "east"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "landscape",
+      "culture"
+    ]
+  },
+  {
+    "id": "vanuatu-001",
+    "feature": "vanuatu pacific island tropical volcanic beach",
+    "description": "Tropical volcanic islands in the Pacific.",
+    "countries": [
+      "Vanuatu"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.95,
+    "tags": [
+      "landscape",
+      "terrain"
+    ]
+  },
+  {
+    "id": "guyana-001",
+    "feature": "guyana jungle rainforest south america caribbean coast",
+    "description": "Dense jungle and Caribbean coast in Guyana.",
+    "countries": [
+      "Guyana"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.82,
+    "tags": [
+      "vegetation",
+      "landscape"
+    ]
+  },
+  {
+    "id": "gambia-001",
+    "feature": "gambia river mangrove west africa small country",
+    "description": "Gambia river and mangroves in the smallest African country.",
+    "countries": [
+      "The Gambia"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.85,
+    "tags": [
+      "landscape",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "hong-kong-001",
+    "feature": "hong kong skyline victoria harbour dense skyscraper",
+    "description": "Iconic dense skyline and Victoria Harbour in Hong Kong.",
+    "countries": [
+      "Hong Kong"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.97,
+    "tags": [
+      "architecture",
+      "urban"
+    ]
+  },
+  {
+    "id": "macau-001",
+    "feature": "macau portuguese colonial casino grand prix",
+    "description": "Portuguese colonial architecture and casinos in Macau.",
+    "countries": [
+      "Macau"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.95,
+    "tags": [
+      "architecture",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "puerto-rico-001",
+    "feature": "puerto rico caribbean spanish colonial old san juan",
+    "description": "Spanish colonial architecture in old San Juan, Puerto Rico.",
+    "countries": [
+      "Puerto Rico"
+    ],
+    "regions": [
+      "north"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "architecture",
+      "landmarks"
+    ]
+  },
+  {
+    "id": "faroe-001",
+    "feature": "faroe islands grass roof house dramatic cliff atlantic",
+    "description": "Grass roofed houses and dramatic sea cliffs in the Faroe Islands.",
+    "countries": [
+      "Faroe Islands"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.97,
+    "tags": [
+      "architecture",
+      "landscape"
+    ]
+  },
+  {
+    "id": "svalbard-001",
+    "feature": "svalbard arctic polar bear snow ice norway",
+    "description": "Extreme arctic conditions and polar bears in Svalbard.",
+    "countries": [
+      "Svalbard and Jan Mayen"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.97,
+    "tags": [
+      "terrain",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "reunion-001",
+    "feature": "reunion island volcanic tropical french indian ocean",
+    "description": "Volcanic tropical island in the Indian Ocean, French territory.",
+    "countries": [
+      "R\u00e9union"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "martinique-001",
+    "feature": "martinique caribbean french island tropical volcano",
+    "description": "French Caribbean island with tropical vegetation.",
+    "countries": [
+      "Martinique"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.9,
+    "tags": [
+      "landscape",
+      "vegetation"
+    ]
+  },
+  {
+    "id": "falklands-001",
+    "feature": "falkland islands wind swept coast penguin south atlantic",
+    "description": "Windswept Atlantic coast with penguins in the Falkland Islands.",
+    "countries": [
+      "Falkland Islands"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.97,
+    "tags": [
+      "landscape",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "antarctica-001",
+    "feature": "antarctica ice sheet penguin research station extreme cold",
+    "description": "Extreme ice and research stations in Antarctica.",
+    "countries": [
+      "Antarctica"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.99,
+    "tags": [
+      "terrain",
+      "landscape"
+    ]
+  },
+  {
+    "id": "gibraltar-001",
+    "feature": "gibraltar rock british territory spain mediterranean",
+    "description": "The Rock of Gibraltar, British territory at the entrance to the Mediterranean.",
+    "countries": [
+      "Gibraltar"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.97,
+    "tags": [
+      "landmarks",
+      "landscape"
+    ]
+  },
+  {
+    "id": "isle-of-man-001",
+    "feature": "isle of man celtic cross triskelion irish sea",
+    "description": "Celtic crosses and the triskelion symbol on the Isle of Man.",
+    "countries": [
+      "Isle of Man"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "landmarks",
+      "culture"
+    ]
+  },
+  {
+    "id": "jersey-001",
+    "feature": "jersey channel island french english coast cattle",
+    "description": "Channel Island with French and English influences.",
+    "countries": [
+      "Jersey"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.88,
+    "tags": [
+      "landscape",
+      "culture"
+    ]
+  },
+  {
+    "id": "bermuda-001",
+    "feature": "bermuda pastel painted house atlantic british island",
+    "description": "Pastel painted houses and British influences in Bermuda.",
+    "countries": [
+      "Bermuda"
+    ],
+    "regions": [
+      "central"
+    ],
+    "weight": 0.92,
+    "tags": [
+      "architecture",
+      "landscape"
+    ]
   }
 ]

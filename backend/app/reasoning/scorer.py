@@ -107,10 +107,16 @@ class ClueScorer:
         if len(values) >= 2 and values[1] > 0.3 * values[0]:
             confidence *= 0.80
 
-        # Top region
+        # Top region — only consider regions from clues that match the top country
+        country_region_scores: dict[str, float] = defaultdict(float)
+        for rc in retrieved_clues:
+            if top_country in rc.clue.countries:
+                for region in (rc.clue.regions or []):
+                    country_region_scores[region] += rc.effective_weight
+
         top_region = (
-            max(region_scores, key=region_scores.get)
-            if region_scores else None
+            max(country_region_scores, key=country_region_scores.get)
+            if country_region_scores else None
         )
 
         # Direction estimate

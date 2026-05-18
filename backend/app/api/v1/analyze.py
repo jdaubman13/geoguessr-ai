@@ -34,6 +34,19 @@ def get_components():
     return _extractor, _retriever, _scorer, _priors
 
 
+def extract_location_from_ocr(texts: list[str]) -> str | None:
+    location_keywords = [
+        "city", "prefecture", "province", "state", "county",
+        "district", "region", "town", "village", "municipality"
+    ]
+    for text in texts:
+        text_lower = text.lower()
+        for keyword in location_keywords:
+            if keyword in text_lower and len(text) > 5:
+                return text
+    return None
+
+
 @router.post("/analyze")
 async def analyze(file: UploadFile = File(...)):
     if file.content_type not in ["image/jpeg", "image/png", "image/webp"]:
@@ -58,6 +71,11 @@ async def analyze(file: UploadFile = File(...)):
 
     features = extractor.extract(image)
 
+    # Check if OCR picked up location from Google Maps UI
+    location_hint = extract_location_from_ocr(features.detected_text)
+    if location_hint:
+        print(f"OCR location hint: {location_hint}")
+
     query_features = [
         f for f in [
             features.pole_type,
@@ -65,6 +83,8 @@ async def analyze(file: UploadFile = File(...)):
             features.terrain,
             features.road_line_color,
             features.bollard_style,
+            features.architecture_style,
+            features.road_type,
             f"driving on the {features.driving_side} side" if features.driving_side else None,
             f"{features.script_type} script on signs" if features.script_type and features.script_type != "unknown" else None,
             f"{features.sky_condition}" if features.sky_condition else None,
@@ -91,5 +111,8 @@ async def analyze(file: UploadFile = File(...)):
             "script_type": features.script_type,
             "vegetation": features.vegetation,
             "terrain": features.terrain,
+            "architecture_style": features.architecture_style,
+            "road_type": features.road_type,
+            "ocr_location_hint": location_hint,
         },
     }

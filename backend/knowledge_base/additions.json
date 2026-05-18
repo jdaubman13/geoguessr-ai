@@ -1,0 +1,443 @@
+[
+  {
+    "id": "andorra-001",
+    "feature": "andorra pyrenees mountain duty free shop",
+    "description": "Tiny mountain country between France and Spain, known for duty free shopping.",
+    "countries": ["Andorra"],
+    "regions": ["central"],
+    "weight": 0.92,
+    "tags": ["terrain", "landmarks"]
+  },
+  {
+    "id": "bhutan-001",
+    "feature": "bhutan dzong fortress monastery himalaya",
+    "description": "Distinctive dzong fortresses and monasteries in Bhutan.",
+    "countries": ["Bhutan"],
+    "regions": ["central"],
+    "weight": 0.95,
+    "tags": ["landmarks", "architecture"]
+  },
+  {
+    "id": "botswana-001",
+    "feature": "botswana kalahari desert dry savanna elephant",
+    "description": "Kalahari desert and elephant country in Botswana.",
+    "countries": ["Botswana"],
+    "regions": ["central"],
+    "weight": 0.88,
+    "tags": ["terrain", "wildlife"]
+  },
+  {
+    "id": "cambodia-001",
+    "feature": "cambodia angkor wat khmer temple jungle",
+    "description": "Khmer temples and jungle in Cambodia.",
+    "countries": ["Cambodia"],
+    "regions": ["north", "central"],
+    "weight": 0.95,
+    "tags": ["landmarks", "culture"]
+  },
+  {
+    "id": "cambodia-002",
+    "feature": "cambodia tuk tuk rice paddy flat tropical",
+    "description": "Tuk tuks and flat rice paddies in Cambodia.",
+    "countries": ["Cambodia"],
+    "regions": [],
+    "weight": 0.80,
+    "tags": ["vehicles", "agriculture"]
+  },
+  {
+    "id": "eswatini-001",
+    "feature": "eswatini swazi mountain southern africa",
+    "description": "Mountainous southern African kingdom of Eswatini.",
+    "countries": ["Eswatini"],
+    "regions": ["central"],
+    "weight": 0.85,
+    "tags": ["terrain", "landscape"]
+  },
+  {
+    "id": "greenland-001",
+    "feature": "greenland ice sheet glacier arctic fjord",
+    "description": "Vast ice sheet and arctic fjords in Greenland.",
+    "countries": ["Greenland"],
+    "regions": ["central", "north"],
+    "weight": 0.97,
+    "tags": ["terrain", "landscape"]
+  },
+  {
+    "id": "kyrgyzstan-001",
+    "feature": "kyrgyzstan tian shan mountain yurt nomad",
+    "description": "Tian Shan mountains and nomadic yurts in Kyrgyzstan.",
+    "countries": ["Kyrgyzstan"],
+    "regions": ["central", "north"],
+    "weight": 0.90,
+    "tags": ["terrain", "culture"]
+  },
+  {
+    "id": "lebanon-001",
+    "feature": "lebanon cedar mountain mediterranean coast",
+    "description": "Cedar mountains and Mediterranean coast in Lebanon.",
+    "countries": ["Lebanon"],
+    "regions": ["central", "west"],
+    "weight": 0.88,
+    "tags": ["terrain", "landscape"]
+  },
+  {
+    "id": "lesotho-001",
+    "feature": "lesotho highland mountain kingdom southern africa blanket",
+    "description": "High altitude mountain kingdom surrounded by South Africa.",
+    "countries": ["Lesotho"],
+    "regions": ["central"],
+    "weight": 0.90,
+    "tags": ["terrain", "culture"]
+  },
+  {
+    "id": "liechtenstein-001",
+    "feature": "liechtenstein rhine valley alpine tiny country",
+    "description": "Tiny alpine country along the Rhine valley.",
+    "countries": ["Liechtenstein"],
+    "regions": ["central"],
+    "weight": 0.90,
+    "tags": ["terrain", "landscape"]
+  },
+  {
+    "id": "luxembourg-001",
+    "feature": "luxembourg city fortress gorge grand duchy",
+    "description": "Fortress city with deep gorges in Luxembourg.",
+    "countries": ["Luxembourg"],
+    "regions": ["central"],
+    "weight": 0.88,
+    "tags": ["landmarks", "architecture"]
+  },
+  {
+    "id": "montenegro-001",
+    "feature": "montenegro adriatic coast bay kotor mountain",
+    "description": "Bay of Kotor and dramatic mountains in Montenegro.",
+    "countries": ["Montenegro"],
+    "regions": ["west", "south"],
+    "weight": 0.90,
+    "tags": ["landscape", "terrain"]
+  },
+  {
+    "id": "namibia-001",
+    "feature": "namibia namib desert red dune sossusvlei",
+    "description": "Red sand dunes of the Namib desert in Namibia.",
+    "countries": ["Namibia"],
+    "regions": ["west", "south"],
+    "weight": 0.95,
+    "tags": ["terrain", "landscape"]
+  },
+  {
+    "id": "namibia-002",
+    "feature": "namibia german colonial architecture windhoek",
+    "description": "German colonial architecture in Namibian cities.",
+    "countries": ["Namibia"],
+    "regions": ["central"],
+    "weight": 0.88,
+    "tags": ["architecture", "landmarks"]
+  },
+  {
+    "id": "nigeria-002",
+    "feature": "nigeria lagos dense urban tropical west africa",
+    "description": "Dense tropical urban environment in Nigeria.",
+    "countries": ["Nigeria"],
+    "regions": ["south"],
+    "weight": 0.75,
+    "tags": ["urban", "vegetation"]
+  },
+  {
+    "id": "oman-001",
+    "feature": "oman desert wadi arabic mountain frankincense",
+    "description": "Desert wadis and Arabic architecture in Oman.",
+    "countries": ["Oman"],
+    "regions": ["central", "north"],
+    "weight": 0.90,
+    "tags": ["terrain", "culture"]
+  },
+  {
+    "id": "palestine-001",
+    "feature": "palestine west bank arabic wall checkpoint",
+    "description": "Arabic signage and separation wall in Palestine.",
+    "countries": ["Palestine"],
+    "regions": ["central"],
+    "weight": 0.88,
+    "tags": ["signs", "landmarks"]
+  },
+  {
+    "id": "panama-001",
+    "feature": "panama canal tropical central america",
+    "description": "Tropical central american country with the Panama canal.",
+    "countries": ["Panama"],
+    "regions": ["central"],
+    "weight": 0.85,
+    "tags": ["landmarks", "vegetation"]
+  },
+  {
+    "id": "qatar-001",
+    "feature": "qatar doha modern skyscraper desert arabic",
+    "description": "Ultra modern skyscrapers in the desert in Qatar.",
+    "countries": ["Qatar"],
+    "regions": ["central"],
+    "weight": 0.92,
+    "tags": ["architecture", "urban"]
+  },
+  {
+    "id": "rwanda-001",
+    "feature": "rwanda thousand hills green tropical africa",
+    "description": "Lush green rolling hills across Rwanda.",
+    "countries": ["Rwanda"],
+    "regions": ["central"],
+    "weight": 0.88,
+    "tags": ["terrain", "vegetation"]
+  },
+  {
+    "id": "san-marino-001",
+    "feature": "san marino medieval fortress hilltop italy",
+    "description": "Medieval hilltop fortress state within Italy.",
+    "countries": ["San Marino"],
+    "regions": ["central"],
+    "weight": 0.95,
+    "tags": ["landmarks", "architecture"]
+  },
+  {
+    "id": "sao-tome-001",
+    "feature": "sao tome principe tropical island atlantic africa",
+    "description": "Small tropical island nation off the coast of Africa.",
+    "countries": ["São Tomé and Príncipe"],
+    "regions": ["central"],
+    "weight": 0.92,
+    "tags": ["landscape", "vegetation"]
+  },
+  {
+    "id": "taiwan-001",
+    "feature": "taiwan traditional chinese temple lantern",
+    "description": "Traditional Chinese temples with lanterns in Taiwan.",
+    "countries": ["Taiwan"],
+    "regions": ["central", "north"],
+    "weight": 0.88,
+    "tags": ["landmarks", "culture"]
+  },
+  {
+    "id": "taiwan-002",
+    "feature": "taiwan scooter dense urban traditional chinese characters",
+    "description": "Dense scooter traffic and traditional Chinese characters on signs.",
+    "countries": ["Taiwan"],
+    "regions": [],
+    "weight": 0.85,
+    "tags": ["vehicles", "signs"]
+  },
+  {
+    "id": "taiwan-003",
+    "feature": "taiwan mountain east coast pacific ocean",
+    "description": "Dramatic mountains dropping to the Pacific coast in eastern Taiwan.",
+    "countries": ["Taiwan"],
+    "regions": ["east"],
+    "weight": 0.82,
+    "tags": ["terrain", "landscape"]
+  },
+  {
+    "id": "uae-001",
+    "feature": "united arab emirates dubai skyscraper desert highway",
+    "description": "Massive skyscrapers and wide desert highways in UAE.",
+    "countries": ["United Arab Emirates"],
+    "regions": ["central"],
+    "weight": 0.92,
+    "tags": ["architecture", "road"]
+  },
+  {
+    "id": "uganda-002",
+    "feature": "uganda kampala red road tropical east africa",
+    "description": "Red dirt roads and tropical vegetation in Uganda.",
+    "countries": ["Uganda"],
+    "regions": ["central"],
+    "weight": 0.78,
+    "tags": ["road", "vegetation"]
+  },
+  {
+    "id": "costa-rica-001",
+    "feature": "costa rica rainforest volcano cloud forest tropical",
+    "description": "Rainforest, volcanoes and cloud forests in Costa Rica.",
+    "countries": ["Costa Rica"],
+    "regions": ["central"],
+    "weight": 0.88,
+    "tags": ["vegetation", "terrain"]
+  },
+  {
+    "id": "laos-001",
+    "feature": "laos mekong river buddhist temple tropical",
+    "description": "Mekong river and Buddhist temples in Laos.",
+    "countries": ["Laos"],
+    "regions": ["central", "south"],
+    "weight": 0.88,
+    "tags": ["landmarks", "landscape"]
+  },
+  {
+    "id": "madagascar-001",
+    "feature": "madagascar baobab avenue lemur unique island",
+    "description": "Unique baobab avenues and lemurs in Madagascar.",
+    "countries": ["Madagascar"],
+    "regions": ["west", "central"],
+    "weight": 0.97,
+    "tags": ["vegetation", "wildlife"]
+  },
+  {
+    "id": "mali-001",
+    "feature": "mali sahara desert mud mosque west africa",
+    "description": "Saharan desert and distinctive mud mosques in Mali.",
+    "countries": ["Mali"],
+    "regions": ["north", "central"],
+    "weight": 0.92,
+    "tags": ["terrain", "landmarks"]
+  },
+  {
+    "id": "tanzania-002",
+    "feature": "tanzania zanzibar island coast swahili",
+    "description": "Swahili coast and Zanzibar island in Tanzania.",
+    "countries": ["Tanzania"],
+    "regions": ["east"],
+    "weight": 0.85,
+    "tags": ["landscape", "culture"]
+  },
+  {
+    "id": "vanuatu-001",
+    "feature": "vanuatu pacific island tropical volcanic beach",
+    "description": "Tropical volcanic islands in the Pacific.",
+    "countries": ["Vanuatu"],
+    "regions": ["central"],
+    "weight": 0.95,
+    "tags": ["landscape", "terrain"]
+  },
+  {
+    "id": "guyana-001",
+    "feature": "guyana jungle rainforest south america caribbean coast",
+    "description": "Dense jungle and Caribbean coast in Guyana.",
+    "countries": ["Guyana"],
+    "regions": ["north"],
+    "weight": 0.82,
+    "tags": ["vegetation", "landscape"]
+  },
+  {
+    "id": "gambia-001",
+    "feature": "gambia river mangrove west africa small country",
+    "description": "Gambia river and mangroves in the smallest African country.",
+    "countries": ["The Gambia"],
+    "regions": ["central"],
+    "weight": 0.85,
+    "tags": ["landscape", "vegetation"]
+  },
+  {
+    "id": "hong-kong-001",
+    "feature": "hong kong skyline victoria harbour dense skyscraper",
+    "description": "Iconic dense skyline and Victoria Harbour in Hong Kong.",
+    "countries": ["Hong Kong"],
+    "regions": ["central"],
+    "weight": 0.97,
+    "tags": ["architecture", "urban"]
+  },
+  {
+    "id": "macau-001",
+    "feature": "macau portuguese colonial casino grand prix",
+    "description": "Portuguese colonial architecture and casinos in Macau.",
+    "countries": ["Macau"],
+    "regions": ["central"],
+    "weight": 0.95,
+    "tags": ["architecture", "landmarks"]
+  },
+  {
+    "id": "puerto-rico-001",
+    "feature": "puerto rico caribbean spanish colonial old san juan",
+    "description": "Spanish colonial architecture in old San Juan, Puerto Rico.",
+    "countries": ["Puerto Rico"],
+    "regions": ["north"],
+    "weight": 0.90,
+    "tags": ["architecture", "landmarks"]
+  },
+  {
+    "id": "faroe-001",
+    "feature": "faroe islands grass roof house dramatic cliff atlantic",
+    "description": "Grass roofed houses and dramatic sea cliffs in the Faroe Islands.",
+    "countries": ["Faroe Islands"],
+    "regions": ["central"],
+    "weight": 0.97,
+    "tags": ["architecture", "landscape"]
+  },
+  {
+    "id": "svalbard-001",
+    "feature": "svalbard arctic polar bear snow ice norway",
+    "description": "Extreme arctic conditions and polar bears in Svalbard.",
+    "countries": ["Svalbard and Jan Mayen"],
+    "regions": ["central"],
+    "weight": 0.97,
+    "tags": ["terrain", "wildlife"]
+  },
+  {
+    "id": "reunion-001",
+    "feature": "reunion island volcanic tropical french indian ocean",
+    "description": "Volcanic tropical island in the Indian Ocean, French territory.",
+    "countries": ["Réunion"],
+    "regions": ["central"],
+    "weight": 0.92,
+    "tags": ["terrain", "landscape"]
+  },
+  {
+    "id": "martinique-001",
+    "feature": "martinique caribbean french island tropical volcano",
+    "description": "French Caribbean island with tropical vegetation.",
+    "countries": ["Martinique"],
+    "regions": ["central"],
+    "weight": 0.90,
+    "tags": ["landscape", "vegetation"]
+  },
+  {
+    "id": "falklands-001",
+    "feature": "falkland islands wind swept coast penguin south atlantic",
+    "description": "Windswept Atlantic coast with penguins in the Falkland Islands.",
+    "countries": ["Falkland Islands"],
+    "regions": ["central"],
+    "weight": 0.97,
+    "tags": ["landscape", "wildlife"]
+  },
+  {
+    "id": "antarctica-001",
+    "feature": "antarctica ice sheet penguin research station extreme cold",
+    "description": "Extreme ice and research stations in Antarctica.",
+    "countries": ["Antarctica"],
+    "regions": ["central"],
+    "weight": 0.99,
+    "tags": ["terrain", "landscape"]
+  },
+  {
+    "id": "gibraltar-001",
+    "feature": "gibraltar rock british territory spain mediterranean",
+    "description": "The Rock of Gibraltar, British territory at the entrance to the Mediterranean.",
+    "countries": ["Gibraltar"],
+    "regions": ["central"],
+    "weight": 0.97,
+    "tags": ["landmarks", "landscape"]
+  },
+  {
+    "id": "isle-of-man-001",
+    "feature": "isle of man celtic cross triskelion irish sea",
+    "description": "Celtic crosses and the triskelion symbol on the Isle of Man.",
+    "countries": ["Isle of Man"],
+    "regions": ["central"],
+    "weight": 0.92,
+    "tags": ["landmarks", "culture"]
+  },
+  {
+    "id": "jersey-001",
+    "feature": "jersey channel island french english coast cattle",
+    "description": "Channel Island with French and English influences.",
+    "countries": ["Jersey"],
+    "regions": ["central"],
+    "weight": 0.88,
+    "tags": ["landscape", "culture"]
+  },
+  {
+    "id": "bermuda-001",
+    "feature": "bermuda pastel painted house atlantic british island",
+    "description": "Pastel painted houses and British influences in Bermuda.",
+    "countries": ["Bermuda"],
+    "regions": ["central"],
+    "weight": 0.92,
+    "tags": ["architecture", "landscape"]
+  }
+]
